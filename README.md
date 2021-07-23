@@ -11,15 +11,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.11
-- Generated date: Sun, 18 Jul 2021 07:10:41 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.12
+- Generated date: Fri, 23 Jul 2021 16:41:14 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
 | api > AudioContext > AudioContext > options_latencyHint_parameter | None | 60 | 60 | 79 | 61 | 61 | 60 |
 | [api > AudioWorkletNode > processorerror_event](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event) | None | 66 | 66 | 79 | 76 | 79 | 66 |
 | [api > AudioWorkletProcessor](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor) | None | 64 | 64 | 79 | 76 | 79 | 64 |
-| api > BaseAudioContext > decodeAudioData > promise_syntax | None | 49 | 49 | ≤79 | 36 | 36 | 49 |
 | [api > BlobEvent > data](https://developer.mozilla.org/docs/Web/API/BlobEvent/data) | None | 49 | 49 | 79 | 25 | 25 | 49 |
 | [api > BroadcastChannel](https://developer.mozilla.org/docs/Web/API/BroadcastChannel) | None | 54 | 54 | 79 | 38 | 38 | 54 |
 | api > ByteLengthQueuingStrategy > highWaterMark | None | 78 | 78 | 16 | 65 | 65 | 78 |
@@ -53,8 +52,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Document > featurePolicy](https://developer.mozilla.org/docs/Web/API/Document/featurePolicy) | None | 74 | 74 | 79 | 69 | 65 | 74 |
 | api > Document > onpointerlockchange | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | api > Document > onpointerlockerror | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
-| [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 45 | 45 | ≤79 | ❓ | ❓ | 45 |
-| [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 45 | 45 | ≤79 | ❓ | ❓ | 45 |
+| [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 45 | 45 | ≤79 | 50 | 50 | 45 |
+| [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 45 | 45 | ≤79 | 50 | 50 | 45 |
 | [api > Document > selectstart_event](https://developer.mozilla.org/docs/Web/API/Document/selectstart_event) | 💻 | Yes | Yes | 12 | 52 | 52 | Yes |
 | [api > Document > touchcancel_event](https://developer.mozilla.org/docs/Web/API/Document/touchcancel_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > Document > touchend_event](https://developer.mozilla.org/docs/Web/API/Document/touchend_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
@@ -67,7 +66,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | ≤79 | 53 | 53 | 55 |
 | api > Element > requestFullscreen > options_navigationUI_parameter | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | api > Element > requestFullscreen > returns_a_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
-| [api > Element > requestPointerLock](https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock) | 💻 | 37 | 37 | 13 | 50 | Yes | 37 |
+| [api > Element > requestPointerLock](https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock) | 💻 | 37 | 37 | 13 | 50 | 50 | 37 |
 | api > Element > scroll > options_parameter | None | 61 | 61 | 79 | Yes | Yes | 61 |
 | api > Element > scrollBy > options_parameter | None | 61 | 61 | 79 | Yes | Yes | 61 |
 | api > Element > scrollIntoView > options_parameter | None | 61 | 61 | 79 | 36 | 36 | 61 |
@@ -140,6 +139,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > PerformanceResourceTiming > worker_support | 💻 | 43 | 43 | ≤18 | 60 | 60 | 43 |
 | [api > PerformanceServerTiming](https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming) | None | 65 | 65 | 79 | 61 | 61 | 65 |
 | [api > PointerEvent > getCoalescedEvents](https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents) | None | 58 | 58 | 79 | 59 | 79 | 58 |
+| api > PointerEvent > getPredictedEvents | None | 77 | 77 | 79 | 89 | 89 | 77 |
 | [api > RTCDataChannel > bufferedamountlow_event](https://developer.mozilla.org/docs/Web/API/RTCDataChannel/bufferedamountlow_event) | 💻 | 57 | 57 | ≤79 | Yes | Yes | 57 |
 | [api > RTCDataChannel > close_event](https://developer.mozilla.org/docs/Web/API/RTCDataChannel/close_event) | 💻 | 56 | 56 | ≤79 | Yes | Yes | 56 |
 | [api > RTCDataChannel > error_event](https://developer.mozilla.org/docs/Web/API/RTCDataChannel/error_event) | 💻 | 56 | 56 | ≤79 | Yes | Yes | 56 |
@@ -156,6 +156,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > SVGAnimationElement > onend](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onend) | None | 35 | 35 | 79 | Yes | ❓ | 37 |
 | [api > SVGAnimationElement > onrepeat](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onrepeat) | None | 35 | 35 | 79 | Yes | ❓ | 37 |
 | api > SVGElement > focus > options_preventScroll_parameter | None | 78 | 78 | ≤79 | 68 | 68 | 78 |
+| api > SVGElement > nonce | None | 61 | 61 | 79 | 75 | 79 | 61 |
 | api > SVGFESpecularLightingElement > kernelUnitLengthX | None | 45 | 45 | 12 | 3 | 4 | 45 |
 | api > SVGFESpecularLightingElement > kernelUnitLengthY | None | 45 | 45 | 12 | 3 | 4 | 45 |
 | [api > SVGImageElement > decoding](https://developer.mozilla.org/docs/Web/API/SVGImageElement/decoding) | None | 65 | 65 | 79 | 63 | 63 | 65 |
