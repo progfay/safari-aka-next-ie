@@ -11,14 +11,15 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.12
-- Generated date: Fri, 23 Jul 2021 16:41:14 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.13
+- Generated date: Thu, 29 Jul 2021 17:21:25 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
 | api > AudioContext > AudioContext > options_latencyHint_parameter | None | 60 | 60 | 79 | 61 | 61 | 60 |
 | [api > AudioWorkletNode > processorerror_event](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event) | None | 66 | 66 | 79 | 76 | 79 | 66 |
-| [api > AudioWorkletProcessor](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor) | None | 64 | 64 | 79 | 76 | 79 | 64 |
+| [api > AudioWorkletProcessor > AudioWorkletProcessor](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/AudioWorkletProcessor) | None | 64 | 64 | 79 | 76 | 79 | 64 |
+| [api > AudioWorkletProcessor > port](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/port) | None | 64 | 64 | 79 | 76 | 79 | 64 |
 | [api > BlobEvent > data](https://developer.mozilla.org/docs/Web/API/BlobEvent/data) | None | 49 | 49 | 79 | 25 | 25 | 49 |
 | [api > BroadcastChannel](https://developer.mozilla.org/docs/Web/API/BroadcastChannel) | None | 54 | 54 | 79 | 38 | 38 | 54 |
 | api > ByteLengthQueuingStrategy > highWaterMark | None | 78 | 78 | 16 | 65 | 65 | 78 |
@@ -86,7 +87,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > FontFace > ascentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/ascentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > descentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/descentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > lineGapOverride](https://developer.mozilla.org/docs/Web/API/FontFace/lineGapOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
-| [api > FontFace > variant](https://developer.mozilla.org/docs/Web/API/FontFace/variant) | None | 35 | 35 | 79 | Yes | Yes | 37 |
+| [api > FontFace > variant](https://developer.mozilla.org/docs/Web/API/FontFace/variant) | None | 35 | 35 | 79 | 41 | 41 | 37 |
 | [api > FontFace > variationSettings](https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | [api > GlobalEventHandlers > onauxclick](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onauxclick) | None | 55 | 55 | 79 | 53 | 53 | 55 |
 | [api > GlobalEventHandlers > onclose](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onclose) | None | 32 | 32 | 79 | 53 | 53 | 4.4.3 |
@@ -111,6 +112,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > KeyboardEvent > getModifierState > scrolllock_parameter | None | 48 | 48 | 12 | Yes | Yes | 48 |
 | [api > KeyframeEffect](https://developer.mozilla.org/docs/Web/API/KeyframeEffect) | None | 75 | 75 | 79 | 63 | 63 | 75 |
 | [api > MediaError > message](https://developer.mozilla.org/docs/Web/API/MediaError/message) | None | 59 | 59 | 79 | 52 | 52 | 59 |
+| [api > MediaStream > active_event](https://developer.mozilla.org/docs/Web/API/MediaStream/active_event) | None | 45 | 45 | ≤79 | ❓ | ❓ | 45 |
+| [api > MediaStream > inactive_event](https://developer.mozilla.org/docs/Web/API/MediaStream/inactive_event) | None | 45 | 45 | ≤79 | ❓ | ❓ | 45 |
 | [api > MediaStream > onactive](https://developer.mozilla.org/docs/Web/API/MediaStream/onactive) | None | 45 | 45 | 12 | ❓ | ❓ | 45 |
 | [api > MediaStream > oninactive](https://developer.mozilla.org/docs/Web/API/MediaStream/oninactive) | None | 45 | 45 | 12 | ❓ | ❓ | 45 |
 | [api > MediaTrackConstraints > autoGainControl](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl) | None | Yes | Yes | ≤79 | 55 | 55 | Yes |
@@ -123,6 +126,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | Yes | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
+| [api > Navigator > storage](https://developer.mozilla.org/docs/Web/API/Navigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Performance > onresourcetimingbufferfull](https://developer.mozilla.org/docs/Web/API/Performance/onresourcetimingbufferfull) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | Yes | Yes | 46 |
@@ -172,7 +176,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > SharedWorkerGlobalScope > name](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name) | None | Yes | 40 | 79 | 55 | 55 | Yes |
 | [api > SharedWorkerGlobalScope > onconnect](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/onconnect) | None | 4 | 18 | 79 | 29 | 29 | Yes |
 | [api > StorageEstimate](https://developer.mozilla.org/docs/Web/API/StorageEstimate) | None | 52 | 52 | ≤79 | 51 | 51 | 52 |
-| [api > StorageManager](https://developer.mozilla.org/docs/Web/API/StorageManager) | None | 48 | 48 | 79 | 57 | 57 | 48 |
+| [api > StorageManager](https://developer.mozilla.org/docs/Web/API/StorageManager) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > SubmitEvent](https://developer.mozilla.org/docs/Web/API/SubmitEvent) | None | 81 | 81 | 81 | 75 | ❓ | 81 |
 | [api > Touch](https://developer.mozilla.org/docs/Web/API/Touch) | 📱 | 22 | Yes | ≤18 | 52 | 6 | Yes |
 | [api > TouchEvent](https://developer.mozilla.org/docs/Web/API/TouchEvent) | 📱 | 22 | 25 | 79 | 52 | 6 | ≤37 |
@@ -257,6 +261,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
+| api > WorkerNavigator > mediaCapabilities | None | 76 | 76 | 79 | 63 | 63 | 76 |
 | [api > WorkerNavigator > storage](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | [api > XMLHttpRequest > send > URLSearchParams](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams) | None | 59 | 59 | ≤79 | 44 | 44 | 59 |
@@ -366,8 +371,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Sec-Fetch-User](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | http > headers > Set-Cookie > SameSite > Lax_default | None | 80 | 80 | 86 | 69 | 79 | 80 |
 | http > headers > Set-Cookie > SameSite > secure_context_required | None | 80 | 80 | 86 | 69 | 79 | 80 |
+| [javascript > builtins > Array > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/at) | None | 92 | 92 | 92 | 90 | 90 | 92 |
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
-| [javascript > builtins > RegExp > hasIndices](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices) | None | 90 | 90 | 90 | 88 | 88 | 90 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
 | [javascript > builtins > Symbol > asyncIterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator) | 💻 | 63 | 63 | 79 | 57 | 57 | 63 |
 | [javascript > classes > private_class_fields_in](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_class_fields) | None | 91 | 91 | 91 | 90 | 90 | 91 |
