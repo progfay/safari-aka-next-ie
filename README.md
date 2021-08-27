@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.0
-- Generated date: Sat, 21 Aug 2021 12:39:39 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.1
+- Generated date: Fri, 27 Aug 2021 18:58:57 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -21,7 +21,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > AudioWorkletProcessor > AudioWorkletProcessor](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/AudioWorkletProcessor) | None | 64 | 64 | 79 | 76 | 79 | 64 |
 | [api > AudioWorkletProcessor > port](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/port) | None | 64 | 64 | 79 | 76 | 79 | 64 |
 | [api > BlobEvent > data](https://developer.mozilla.org/docs/Web/API/BlobEvent/data) | None | 49 | 49 | 79 | 25 | 25 | 49 |
-| [api > BroadcastChannel](https://developer.mozilla.org/docs/Web/API/BroadcastChannel) | None | 54 | 54 | 79 | 38 | 38 | 54 |
+| [api > BroadcastChannel](https://developer.mozilla.org/docs/Web/API/BroadcastChannel) | 💻 | 54 | 54 | 79 | 38 | 38 | 54 |
 | api > ByteLengthQueuingStrategy > highWaterMark | None | 78 | 78 | 16 | 65 | 65 | 78 |
 | [api > CSSConditionRule](https://developer.mozilla.org/docs/Web/API/CSSConditionRule) | None | 56 | 56 | 12 | 20 | 20 | 56 |
 | [api > CSSCounterStyleRule](https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule) | None | 91 | 91 | 91 | 33 | 33 | 91 |
@@ -106,6 +106,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLLinkElement > imageSizes | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | api > HTMLLinkElement > imageSrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | [api > HTMLMediaElement > captureStream](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream) | None | 62 | 62 | 79 | 15 | 15 | 62 |
+| [api > HTMLSlotElement > assign](https://developer.mozilla.org/docs/Web/API/HTMLSlotElement/assign) | None | 86 | 86 | 86 | 92 | 92 | 86 |
 | api > IDBRequest > error > DOMException | None | 48 | 48 | ≤18 | 58 | 58 | 48 |
 | api > IDBTransaction > error > DOMException | None | 48 | 48 | ≤18 | 58 | 58 | 48 |
 | [api > IdleDeadline](https://developer.mozilla.org/docs/Web/API/IdleDeadline) | None | 47 | 47 | 79 | 55 | 55 | 47 |
@@ -187,7 +188,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Touch](https://developer.mozilla.org/docs/Web/API/Touch) | 📱 | 22 | Yes | ≤18 | 52 | 6 | Yes |
 | [api > TouchEvent](https://developer.mozilla.org/docs/Web/API/TouchEvent) | 📱 | 22 | 25 | 79 | 52 | 6 | ≤37 |
 | [api > TransitionEvent > TransitionEvent](https://developer.mozilla.org/docs/Web/API/TransitionEvent/TransitionEvent) | None | 27 | 27 | 79 | 23 | 23 | ≤37 |
-| [api > TransitionEvent > pseudoElement](https://developer.mozilla.org/docs/Web/API/TransitionEvent/pseudoElement) | 💻 | 2 | 18 | 79 | 23 | 23 | ≤37 |
 | [api > WEBGL_color_buffer_float](https://developer.mozilla.org/docs/Web/API/WEBGL_color_buffer_float) | 💻 | 63 | 63 | 17 | 30 | ❓ | 63 |
 | [api > WEBGL_compressed_texture_astc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_astc) | None | 47 | 47 | 79 | 53 | 53 | 47 |
 | [api > WEBGL_compressed_texture_etc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc) | 📱 | 63 | 63 | 79 | 51 | ❓ | 63 |
@@ -283,9 +283,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > at-rules > font-face > descent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [css > at-rules > font-face > font-variation-settings](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | [css > at-rules > font-face > line-gap-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
+| [css > at-rules > font-face > size-adjust](https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust) | None | 92 | 92 | 92 | 92 | 92 | 92 |
 | css > at-rules > media > media_query_values | None | 66 | 66 | 79 | 59 | 59 | 66 |
 | [css > at-rules > media > resolution](https://developer.mozilla.org/docs/Web/CSS/@media/resolution) | None | 29 | 29 | 12 | 8 | 8 | ≤37 |
 | [css > at-rules > page](https://developer.mozilla.org/docs/Web/CSS/@page) | None | 2 | 18 | 12 | 19 | 19 | 37 |
+| [css > properties > accent-color](https://developer.mozilla.org/docs/Web/CSS/accent-color) | None | 93 | 93 | 93 | 92 | 92 | 93 |
+| css > properties > align-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
+| css > properties > align-items > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
+| css > properties > align-self > flex_context > left_right | None | 93 | 93 | 93 | 52 | 52 | 93 |
 | css > properties > appearance > auto | None | 83 | 83 | 83 | 80 | 80 | 83 |
 | [css > properties > break-after > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-after) | None | 50 | 50 | 12 | 65 | 65 | 50 |
 | [css > properties > break-before > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-before) | None | 50 | 50 | 12 | 65 | 65 | 50 |
