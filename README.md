@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.1
-- Generated date: Fri, 27 Aug 2021 18:58:57 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.2
+- Generated date: Sat, 04 Sep 2021 12:22:38 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -130,7 +130,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MediaTrackSupportedConstraints > noiseSuppression](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression) | None | 69 | 69 | ≤79 | 55 | 55 | 69 |
 | [api > MessagePort > messageerror_event](https://developer.mozilla.org/docs/Web/API/MessagePort/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | Yes | 14 | 50 |
+| [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | 31 | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | [api > Navigator > storage](https://developer.mozilla.org/docs/Web/API/Navigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
@@ -267,9 +267,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Window > scroll > options_parameter | None | 45 | 45 | 79 | Yes | Yes | 45 |
 | api > Window > scrollBy > options_parameter | None | 45 | 45 | 79 | Yes | Yes | 45 |
 | [api > WindowEventHandlers > onmessageerror](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > WindowOrWorkerGlobalScope > caches](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/caches) | 📱 | 40 | Yes | ≤79 | 42 | 42 | 40 |
-| [api > WindowOrWorkerGlobalScope > createImageBitmap](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/createImageBitmap) | None | 50 | 50 | 79 | 42 | Yes | 50 |
-| api > WindowOrWorkerGlobalScope > fetch > referrerpolicy | 💻 | 52 | 52 | 79 | 52 | 52 | 52 |
 | [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
@@ -278,6 +275,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WorkerNavigator > storage](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | [api > XMLHttpRequest > send > URLSearchParams](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams) | None | 59 | 59 | ≤79 | 44 | 44 | 59 |
+| [api > caches](https://developer.mozilla.org/docs/Web/API/caches) | 📱 | 40 | Yes | ≤79 | 42 | 42 | 40 |
+| [api > createImageBitmap](https://developer.mozilla.org/docs/Web/API/createImageBitmap) | None | 50 | 50 | 79 | 42 | Yes | 50 |
+| api > fetch > referrerpolicy | 💻 | 52 | 52 | 79 | 52 | 52 | 52 |
 | [css > at-rules > counter-style](https://developer.mozilla.org/docs/Web/CSS/@counter-style) | None | 91 | 91 | 91 | 33 | 33 | 91 |
 | [css > at-rules > font-face > ascent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [css > at-rules > font-face > descent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
@@ -392,6 +392,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | http > headers > Set-Cookie > SameSite > secure_context_required | None | 80 | 80 | 86 | 69 | 79 | 80 |
 | [javascript > builtins > Array > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/at) | None | 92 | 92 | 92 | 90 | 90 | 92 |
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| [javascript > builtins > Object > hasOwn](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn) | None | 93 | 93 | 93 | 92 | 92 | 93 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
 | [javascript > builtins > String > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at) | None | 92 | 92 | 92 | 90 | 90 | 92 |
 | [javascript > builtins > Symbol > asyncIterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator) | 💻 | 63 | 63 | 79 | 57 | 57 | 63 |
