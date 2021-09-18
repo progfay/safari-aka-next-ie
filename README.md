@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.3
-- Generated date: Sat, 11 Sep 2021 12:46:24 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.4
+- Generated date: Sat, 18 Sep 2021 00:01:25 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -34,7 +34,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > CryptoKey](https://developer.mozilla.org/docs/Web/API/CryptoKey) | None | 37 | 37 | 12 | 34 | 34 | 37 |
 | [api > CryptoKeyPair](https://developer.mozilla.org/docs/Web/API/CryptoKeyPair) | None | 37 | 37 | ≤18 | 34 | 34 | 37 |
 | api > CustomElementRegistry > builtin | None | 67 | 67 | 79 | 63 | 63 | 67 |
-| [api > DOMPointInit](https://developer.mozilla.org/docs/Web/API/DOMPointInit) | None | 61 | 61 | 79 | 62 | 62 | 61 |
 | [api > DataTransfer > clearData](https://developer.mozilla.org/docs/Web/API/DataTransfer/clearData) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
 | [api > DataTransfer > dropEffect](https://developer.mozilla.org/docs/Web/API/DataTransfer/dropEffect) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
 | [api > DataTransfer > effectAllowed](https://developer.mozilla.org/docs/Web/API/DataTransfer/effectAllowed) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
@@ -98,6 +97,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLCanvasElement > getContext > webgl2_context > options_failIfMajorPerformanceCaveat_parameter | None | 56 | 56 | 79 | 41 | 41 | 56 |
 | api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
 | [api > HTMLDialogElement](https://developer.mozilla.org/docs/Web/API/HTMLDialogElement) | None | 37 | 37 | 79 | 53 | 53 | 37 |
+| [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
 | api > HTMLElement > autocapitalize | 📱 | 66 | 66 | 79 | 83 | 83 | 66 |
 | api > HTMLElement > focus > options_preventScroll_parameter | None | 64 | 64 | ≤79 | 68 | 68 | 64 |
 | [api > HTMLFormElement > requestSubmit](https://developer.mozilla.org/docs/Web/API/HTMLFormElement/requestSubmit) | None | 76 | 76 | 79 | 75 | 79 | 76 |
