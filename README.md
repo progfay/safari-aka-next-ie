@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.4
-- Generated date: Sat, 18 Sep 2021 00:01:25 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.5
+- Generated date: Sat, 25 Sep 2021 00:48:35 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -32,22 +32,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
 | api > CountQueuingStrategy > highWaterMark | None | 78 | 78 | 16 | 65 | 65 | 78 |
 | [api > CryptoKey](https://developer.mozilla.org/docs/Web/API/CryptoKey) | None | 37 | 37 | 12 | 34 | 34 | 37 |
-| [api > CryptoKeyPair](https://developer.mozilla.org/docs/Web/API/CryptoKeyPair) | None | 37 | 37 | ≤18 | 34 | 34 | 37 |
 | api > CustomElementRegistry > builtin | None | 67 | 67 | 79 | 63 | 63 | 67 |
-| [api > DataTransfer > clearData](https://developer.mozilla.org/docs/Web/API/DataTransfer/clearData) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
-| [api > DataTransfer > dropEffect](https://developer.mozilla.org/docs/Web/API/DataTransfer/dropEffect) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
-| [api > DataTransfer > effectAllowed](https://developer.mozilla.org/docs/Web/API/DataTransfer/effectAllowed) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
-| [api > DataTransfer > files](https://developer.mozilla.org/docs/Web/API/DataTransfer/files) | 💻 | Yes | Yes | 12 | 3.6 | 4 | Yes |
-| [api > DataTransfer > getData](https://developer.mozilla.org/docs/Web/API/DataTransfer/getData) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
-| [api > DataTransfer > setDragImage](https://developer.mozilla.org/docs/Web/API/DataTransfer/setDragImage) | 💻 | Yes | Yes | 18 | 3.5 | 4 | Yes |
-| [api > DataTransfer > types](https://developer.mozilla.org/docs/Web/API/DataTransfer/types) | 💻 | Yes | Yes | 12 | 3.5 | 4 | Yes |
 | [api > DedicatedWorkerGlobalScope > messageerror_event](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > DedicatedWorkerGlobalScope > onmessageerror](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > DeviceMotionEvent](https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent) | 📱 | 11 | 18 | 12 | 6 | 6 | ≤37 |
 | [api > DeviceOrientationEvent](https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent) | 📱 | 7 | 18 | 12 | 6 | 6 | ≤37 |
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | ≤79 | 50 | 50 | 56 |
-| api > Document > exitFullscreen > returns_a_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
+| api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
 | [api > Document > featurePolicy](https://developer.mozilla.org/docs/Web/API/Document/featurePolicy) | None | 74 | 74 | 79 | 69 | 65 | 74 |
 | api > Document > onpointerlockchange | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | api > Document > onpointerlockerror | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
@@ -65,7 +57,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | ≤79 | 53 | 53 | 55 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 1 |
 | api > Element > requestFullscreen > options_navigationUI_parameter | None | 71 | 71 | 79 | 64 | 64 | 71 |
-| api > Element > requestFullscreen > returns_a_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
+| api > Element > requestFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
 | [api > Element > requestPointerLock](https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock) | 💻 | 37 | 37 | 13 | 50 | 50 | 37 |
 | api > Element > scroll > options_parameter | None | 61 | 61 | 79 | Yes | Yes | 61 |
 | api > Element > scrollBy > options_parameter | None | 61 | 61 | 79 | Yes | Yes | 61 |
@@ -152,7 +144,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > PointerEvent > getPredictedEvents | None | 77 | 77 | 79 | 89 | 89 | 77 |
 | [api > RTCDataChannel > bufferedamountlow_event](https://developer.mozilla.org/docs/Web/API/RTCDataChannel/bufferedamountlow_event) | 💻 | 57 | 57 | ≤79 | Yes | Yes | 57 |
 | api > RTCDataChannel > sctp-sdp-21 | None | 58 | 58 | ≤79 | 63 | 63 | 58 |
-| [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | Yes |
+| [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | ≤37 |
 | [api > RTCRtpReceiver > rtcpTransport](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/rtcpTransport) | None | 59 | 59 | 12 | Yes | Yes | 59 |
 | [api > RTCRtpReceiver > transport](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/transport) | None | 59 | 59 | 12 | 82 | 82 | 59 |
 | [api > ReadableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController) | None | 89 | 89 | 89 | 65 | 65 | 89 |
