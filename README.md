@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.6
-- Generated date: Wed, 13 Oct 2021 12:29:59 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.7
+- Generated date: Mon, 25 Oct 2021 11:47:06 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -142,7 +142,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > RTCDataChannel > bufferedamountlow_event](https://developer.mozilla.org/docs/Web/API/RTCDataChannel/bufferedamountlow_event) | 💻 | 57 | 57 | ≤79 | Yes | Yes | 57 |
 | api > RTCDataChannel > sctp-sdp-21 | None | 58 | 58 | ≤79 | 63 | 63 | 58 |
 | [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | ≤37 |
-| [api > RTCRtpReceiver > rtcpTransport](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/rtcpTransport) | None | 59 | 59 | 12 | Yes | Yes | 59 |
 | [api > RTCRtpReceiver > transport](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/transport) | None | 59 | 59 | 12 | 82 | 82 | 59 |
 | [api > ReadableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController) | None | 89 | 89 | 89 | 65 | 65 | 89 |
 | [api > ReadableStreamDefaultReader](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader) | None | 78 | 78 | 79 | 65 | 65 | 78 |
@@ -243,7 +242,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | ❓ | ≤37 |
 | api > WheelEvent > pinch-to-zoom_support | None | 31 | Yes | ≤79 | 55 | 55 | ≤37 |
 | [api > Window > cancelIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
-| [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | Yes | Yes | 12 | 6 | 6 | Yes |
+| [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4 |
 | [api > Window > deviceorientation_event](https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
 | [api > Window > gamepadconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepadconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
 | [api > Window > gamepaddisconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepaddisconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
