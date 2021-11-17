@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.10
-- Generated date: Mon, 15 Nov 2021 14:31:03 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.11
+- Generated date: Wed, 17 Nov 2021 19:46:53 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -55,7 +55,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
 | [api > EXT_color_buffer_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_float) | 📱 | 63 | 63 | 79 | 49 | ❓ | 63 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
-| [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | ≤79 | 53 | 53 | 55 |
+| [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 1 |
 | api > Element > requestFullscreen > options_navigationUI_parameter | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | api > Element > requestFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
@@ -116,7 +116,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | 31 | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
-| [api > Navigator > storage](https://developer.mozilla.org/docs/Web/API/Navigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Performance > onresourcetimingbufferfull](https://developer.mozilla.org/docs/Web/API/Performance/onresourcetimingbufferfull) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
@@ -134,6 +133,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > RTCDataChannel > sctp-sdp-21 | None | 58 | 58 | 79 | 63 | 63 | 58 |
 | [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | ≤37 |
 | [api > RTCRtpReceiver > transport](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/transport) | None | 59 | 59 | 12 | 82 | 82 | 59 |
+| [api > RTCRtpSender > rtcpTransport](https://developer.mozilla.org/docs/Web/API/RTCRtpSender/rtcpTransport) | None | 75 | 75 | 13 | 34 | 34 | 75 |
+| [api > RTCRtpSender > transport](https://developer.mozilla.org/docs/Web/API/RTCRtpSender/transport) | None | 75 | 75 | 13 | 34 | 34 | 75 |
 | [api > ReadableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController) | None | 89 | 89 | 89 | 65 | 65 | 89 |
 | [api > ReadableStreamDefaultReader](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader) | None | 78 | 78 | 79 | 65 | 65 | 78 |
 | api > Request > Request > reponse_body_readablestream | 📱 | 43 | 43 | ≤79 | 65 | 65 | 43 |
@@ -155,7 +156,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ServiceWorkerGlobalScope > onnotificationclose](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onnotificationclose) | None | 50 | 50 | 17 | 44 | 44 | 50 |
 | [api > ServiceWorkerGlobalScope > onpush](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onpush) | None | 42 | 42 | 17 | 44 | 44 | 42 |
 | [api > ServiceWorkerGlobalScope > onsync](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onsync) | None | 49 | 49 | 79 | 44 | 44 | 49 |
-| [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | ≤79 | 44 | 44 | 40 |
+| [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
 | [api > ServiceWorkerRegistration > navigationPreload](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/navigationPreload) | None | 59 | 59 | 17 | 44 | 44 | 59 |
 | [api > ServiceWorkerRegistration > scope](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/scope) | 💻 | 40 | 40 | 17 | 44 | 44 | 40 |
 | [api > ServiceWorkerRegistration > update](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/update) | 💻 | 45 | 45 | 17 | 44 | 44 | 45 |
@@ -165,7 +166,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > SharedWorkerGlobalScope > connect_event](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/connect_event) | None | 4 | 18 | 79 | 29 | 29 | ≤37 |
 | [api > SharedWorkerGlobalScope > name](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name) | None | 4 | 18 | 79 | 55 | 55 | ≤37 |
 | [api > SharedWorkerGlobalScope > onconnect](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/onconnect) | None | 4 | 18 | 79 | 29 | 29 | ≤37 |
-| [api > StorageManager](https://developer.mozilla.org/docs/Web/API/StorageManager) | None | 55 | 55 | 79 | 57 | 57 | 55 |
+| [api > StorageManager > estimate](https://developer.mozilla.org/docs/Web/API/StorageManager/estimate) | None | 61 | 61 | 79 | 57 | 57 | 61 |
 | [api > Touch](https://developer.mozilla.org/docs/Web/API/Touch) | 📱 | 22 | 25 | ≤18 | 52 | 6 | ≤37 |
 | [api > TouchEvent](https://developer.mozilla.org/docs/Web/API/TouchEvent) | 📱 | 22 | 25 | 79 | 52 | 6 | ≤37 |
 | [api > TransitionEvent > TransitionEvent](https://developer.mozilla.org/docs/Web/API/TransitionEvent/TransitionEvent) | None | 27 | 27 | 79 | 23 | 23 | ≤37 |
@@ -233,7 +234,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | ❓ | ≤37 |
-| api > WheelEvent > pinch-to-zoom_support | None | 31 | 31 | ≤79 | 55 | 55 | ≤37 |
+| api > WheelEvent > pinch-to-zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | ≤37 |
 | [api > Window > cancelIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
 | [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4 |
 | [api > Window > deviceorientation_event](https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
@@ -250,7 +251,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | api > WorkerNavigator > mediaCapabilities | None | 76 | 76 | 79 | 63 | 63 | 76 |
-| [api > WorkerNavigator > storage](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage) | None | 55 | 55 | 79 | 57 | 57 | 55 |
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | api > createImageBitmap > options_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
 | api > createImageBitmap > svgimageelement_as_source_image | None | 59 | 59 | 79 | 65 | 65 | 59 |
