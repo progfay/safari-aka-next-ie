@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.11
-- Generated date: Wed, 17 Nov 2021 19:46:53 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.12
+- Generated date: Sat, 27 Nov 2021 06:57:06 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -41,7 +41,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
-| [api > Document > featurePolicy](https://developer.mozilla.org/docs/Web/API/Document/featurePolicy) | None | 74 | 74 | 79 | 69 | 65 | 74 |
 | api > Document > onpointerlockchange | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | api > Document > onpointerlockerror | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 45 | 45 | 13 | 50 | 50 | 45 |
