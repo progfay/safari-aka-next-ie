@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.3
-- Generated date: Wed, 12 Jan 2022 13:16:16 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.4
+- Generated date: Wed, 19 Jan 2022 14:42:33 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -284,6 +284,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > align-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-items > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-self > flex_context > left_right | None | 93 | 93 | 93 | 52 | 52 | 93 |
+| css > properties > align-self > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > appearance > auto | None | 83 | 83 | 83 | 80 | 80 | 83 |
 | [css > properties > break-after > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-after) | None | 50 | 50 | 12 | 65 | 65 | 50 |
 | [css > properties > break-before > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-before) | None | 50 | 50 | 12 | 65 | 65 | 50 |
@@ -301,6 +302,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > flex-basis > min-content | None | 94 | 94 | 94 | 66 | 66 | 94 |
 | css > properties > flex-grow > less_than_zero_animate | None | 49 | 49 | 79 | 32 | 32 | 49 |
 | [css > properties > gap > multicol_context](https://developer.mozilla.org/docs/Web/CSS/gap) | None | 66 | 66 | 16 | 61 | 61 | 66 |
+| css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
 | css > properties > min-width > auto | None | 21 | 25 | 12 | 34 | 34 | 37 |
 | [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 63 | 55 |
@@ -312,6 +314,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > properties > overscroll-behavior-x](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x) | None | 63 | 63 | 18 | 59 | 59 | 63 |
 | [css > properties > overscroll-behavior-y](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y) | None | 63 | 63 | 18 | 59 | 59 | 63 |
 | [css > properties > overscroll-behavior](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior) | None | 63 | 63 | 18 | 59 | 59 | 63 |
+| [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
 | [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | None | 42 | 42 | 79 | 53 | 53 | 56 |
 | [css > properties > text-align-last](https://developer.mozilla.org/docs/Web/CSS/text-align-last) | None | 47 | 47 | 12 | 49 | 49 | 47 |
 | css > properties > text-align > match-parent | None | 16 | 18 | 79 | 40 | 40 | 37 |
@@ -388,7 +391,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
 | [javascript > builtins > String > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at) | 💻 | 92 | 92 | 92 | 90 | 90 | 92 |
 | [javascript > builtins > TypedArray > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at) | 💻 | 92 | 92 | 92 | 90 | 90 | 92 |
-| [javascript > classes > private_class_fields_in](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_class_fields) | None | 91 | 91 | 91 | 90 | 90 | 91 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
 | [javascript > grammar > hashbang_comments](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hashbang_comments) | None | 74 | 74 | 79 | 67 | 67 | 74 |
 | svg > elements > a > referrerpolicy | 💻 | 51 | 51 | 79 | 52 | 52 | 51 |
