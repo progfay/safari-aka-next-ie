@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.5
-- Generated date: Thu, 27 Jan 2022 15:28:32 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.6
+- Generated date: Wed, 02 Feb 2022 14:44:43 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -64,6 +64,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Element > touchmove_event](https://developer.mozilla.org/docs/Web/API/Element/touchmove_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > Element > touchstart_event](https://developer.mozilla.org/docs/Web/API/Element/touchstart_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > ElementInternals](https://developer.mozilla.org/docs/Web/API/ElementInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
+| api > EventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_touch | None | 55 | 55 | 79 | 61 | 61 | 55 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_wheel | None | 73 | 73 | 79 | 84 | 84 | 73 |
 | api > EventTarget > addEventListener > options_parameter > options_signal_parameter | None | 90 | 90 | 90 | 86 | 86 | 90 |
@@ -89,7 +90,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLCanvasElement > toBlob > type_parameter_webp | None | 50 | 50 | 79 | 96 | 96 | 50 |
 | api > HTMLCanvasElement > toDataURL > type_parameter_webp | None | 17 | 18 | 79 | 96 | 96 | ≤37 |
 | [api > HTMLCanvasElement > transferControlToOffscreen](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen) | None | 69 | 69 | 79 | 44 | 44 | 69 |
-| [api > HTMLDialogElement](https://developer.mozilla.org/docs/Web/API/HTMLDialogElement) | None | 37 | 37 | 79 | 53 | 53 | 37 |
 | [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
 | api > HTMLElement > autocapitalize | 📱 | 66 | 66 | 79 | 83 | 83 | 66 |
 | api > HTMLElement > focus > options_preventScroll_parameter | None | 64 | 64 | 17 | 68 | 68 | 64 |
@@ -108,8 +108,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > KeyboardEvent > getModifierState > numlock_parameter | None | 48 | 48 | ≤79 | 15 | 15 | 48 |
 | api > KeyboardEvent > getModifierState > scrolllock_parameter | None | 48 | 48 | 79 | 15 | 15 | 48 |
 | [api > KeyframeEffect](https://developer.mozilla.org/docs/Web/API/KeyframeEffect) | None | 75 | 75 | 79 | 63 | 63 | 75 |
-| [api > Lock](https://developer.mozilla.org/docs/Web/API/Lock) | 💻 | 69 | 69 | 79 | 96 | 96 | 69 |
-| [api > LockManager](https://developer.mozilla.org/docs/Web/API/LockManager) | 💻 | 69 | 69 | 79 | 96 | 96 | 69 |
 | [api > MediaTrackConstraints > autoGainControl](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl) | None | 67 | 67 | ≤79 | 55 | 55 | 67 |
 | [api > MediaTrackConstraints > noiseSuppression](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression) | None | 67 | 67 | ≤79 | 55 | 55 | 67 |
 | [api > MediaTrackSettings > autoGainControl](https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/autoGainControl) | None | 67 | 67 | ≤79 | 55 | 55 | 67 |
@@ -120,9 +118,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | 31 | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
-| [api > Navigator > locks](https://developer.mozilla.org/docs/Web/API/Navigator/locks) | 💻 | 69 | 69 | 79 | 96 | 96 | 69 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 44 | 44 | 69 |
+| api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > Performance > onresourcetimingbufferfull](https://developer.mozilla.org/docs/Web/API/Performance/onresourcetimingbufferfull) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > setResourceTimingBufferSize](https://developer.mozilla.org/docs/Web/API/Performance/setResourceTimingBufferSize) | 💻 | 46 | 46 | 12 | 35 | 35 | 46 |
@@ -146,10 +144,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ReadableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController) | None | 89 | 89 | 89 | 65 | 65 | 89 |
 | [api > ReadableStreamDefaultReader](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader) | None | 78 | 78 | 79 | 65 | 65 | 78 |
 | api > Request > Request > reponse_body_readablestream | 📱 | 43 | 43 | ≤79 | 65 | 65 | 43 |
-| [api > ResizeObserverEntry > borderBoxSize](https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/borderBoxSize) | 💻 | 84 | 84 | 84 | 69 | 79 | 84 |
-| [api > ResizeObserverEntry > contentBoxSize](https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/contentBoxSize) | 💻 | 84 | 84 | 84 | 92 | 92 | 84 |
 | api > ResizeObserverEntry > devicePixelContentBoxSize | None | 84 | 84 | 84 | 93 | 93 | 84 |
-| [api > ResizeObserverSize](https://developer.mozilla.org/docs/Web/API/ResizeObserverSize) | None | 84 | 84 | 84 | 69 | 79 | 84 |
 | api > Response > Response > body_parameter_optional | None | 40 | 40 | ≤79 | 59 | 59 | 40 |
 | [api > SVGAnimationElement > onbegin](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onbegin) | None | 35 | 35 | 79 | 93 | 93 | 37 |
 | [api > SVGAnimationElement > onend](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onend) | None | 35 | 35 | 79 | 93 | 93 | 37 |
@@ -280,7 +275,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > at-rules > media > media_query_values | None | 66 | 66 | 79 | 59 | 59 | 66 |
 | [css > at-rules > media > resolution](https://developer.mozilla.org/docs/Web/CSS/@media/resolution) | None | 29 | 29 | 12 | 8 | 8 | ≤37 |
 | [css > at-rules > page](https://developer.mozilla.org/docs/Web/CSS/@page) | None | 2 | 18 | 12 | 19 | 19 | 37 |
-| [css > properties > accent-color](https://developer.mozilla.org/docs/Web/CSS/accent-color) | 💻 | 93 | 93 | 93 | 92 | 92 | 93 |
 | css > properties > align-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-items > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-self > flex_context > left_right | None | 93 | 93 | 93 | 52 | 52 | 93 |
@@ -292,7 +286,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > clip-path > animations | None | 55 | 55 | 79 | 49 | 49 | 55 |
 | css > properties > column-gap > multicol_context > calc_values | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > column-gap > multicol_context > percentage_values | None | 66 | 66 | 16 | 61 | 61 | 66 |
-| [css > properties > contain](https://developer.mozilla.org/docs/Web/CSS/contain) | None | 52 | 52 | 79 | 69 | 41 | 52 |
 | [css > properties > counter-set](https://developer.mozilla.org/docs/Web/CSS/counter-set) | None | 85 | 85 | 85 | 68 | 68 | 85 |
 | css > properties > display > contents > contents_unusual | None | 65 | 65 | 79 | 59 | 59 | 65 |
 | css > properties > display > list-item > legend-support | None | 71 | 71 | 79 | 64 | 64 | 71 |
@@ -322,7 +315,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > user-select > all | None | 53 | 53 | 79 | 1 | 4 | 53 |
 | css > selectors > after > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | ≤37 |
 | css > selectors > any-link > not_match_link | None | 65 | 65 | 79 | 87 | 87 | 65 |
-| [css > selectors > backdrop](https://developer.mozilla.org/docs/Web/CSS/::backdrop) | 💻 | 37 | 37 | 79 | 47 | 47 | 37 |
 | css > selectors > before > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | ≤37 |
 | css > selectors > first-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | [css > selectors > focus-visible](https://developer.mozilla.org/docs/Web/CSS/:focus-visible) | None | 86 | 86 | 86 | 85 | 85 | 86 |
@@ -344,9 +336,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > types > resolution](https://developer.mozilla.org/docs/Web/CSS/resolution) | None | 29 | 29 | 12 | 8 | 8 | ≤37 |
 | html > elements > a > referrerpolicy | 💻 | 51 | 51 | 79 | 50 | 50 | 51 |
 | html > elements > area > referrerpolicy | 💻 | 51 | 51 | 79 | 50 | 50 | 51 |
-| [html > elements > dialog](https://developer.mozilla.org/docs/Web/HTML/Element/dialog) | 💻 | 37 | 37 | 79 | 53 | 53 | 37 |
 | html > elements > iframe > referrerpolicy | 💻 | 51 | 51 | 79 | 50 | 50 | 51 |
 | html > elements > iframe > sandbox-allow-downloads | None | 83 | 83 | 83 | 82 | 82 | 83 |
+| [html > elements > img > loading](https://developer.mozilla.org/docs/Web/Performance/Lazy_loading) | 💻 | 77 | 77 | 79 | 75 | 79 | 77 |
 | html > elements > img > referrerpolicy | 💻 | 51 | 51 | 79 | 50 | 50 | 51 |
 | html > elements > link > imagesizes | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | html > elements > link > imagesrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
@@ -385,12 +377,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Sec-Fetch-User](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | http > headers > Set-Cookie > SameSite > Lax_default | None | 80 | 80 | 86 | 96 | 96 | 80 |
 | http > headers > Set-Cookie > SameSite > secure_context_required | None | 80 | 80 | 86 | 96 | 96 | 80 |
-| [javascript > builtins > Array > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/at) | 💻 | 92 | 92 | 92 | 90 | 90 | 92 |
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
-| [javascript > builtins > Object > hasOwn](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn) | 💻 | 93 | 93 | 93 | 92 | 92 | 93 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
-| [javascript > builtins > String > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at) | 💻 | 92 | 92 | 92 | 90 | 90 | 92 |
-| [javascript > builtins > TypedArray > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at) | 💻 | 92 | 92 | 92 | 90 | 90 | 92 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
-| [javascript > grammar > hashbang_comments](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hashbang_comments) | None | 74 | 74 | 79 | 67 | 67 | 74 |
 | svg > elements > a > referrerpolicy | 💻 | 51 | 51 | 79 | 52 | 52 | 51 |
