@@ -12,7 +12,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 ## Features List
 
 - Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.6
-- Generated date: Wed, 02 Feb 2022 14:44:43 GMT
+- Generated date: Thu, 10 Feb 2022 13:22:34 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
