@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.9
-- Generated date: Wed, 23 Feb 2022 07:09:28 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.10
+- Generated date: Wed, 02 Mar 2022 14:06:28 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -318,14 +318,12 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > selectors > focus-visible](https://developer.mozilla.org/docs/Web/CSS/:focus-visible) | None | 86 | 86 | 86 | 85 | 85 | 86 |
 | [css > selectors > fullscreen](https://developer.mozilla.org/docs/Web/CSS/:fullscreen) | 💻 | 71 | 71 | 12 | 64 | 64 | 71 |
 | css > selectors > indeterminate > radio | None | 39 | 39 | 79 | 51 | 51 | 39 |
-| [css > selectors > is > forgiving_selector_list](https://developer.mozilla.org/docs/Web/CSS/:is#Forgiving_Selector_Parsing) | None | 88 | 88 | 88 | 82 | 82 | 88 |
 | css > selectors > last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > link > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 1.5 |
 | css > selectors > nth-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > nth-last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > only-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > visited > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 4.4 |
-| [css > selectors > where > forgiving_selector_list](https://developer.mozilla.org/docs/Web/CSS/:where#Forgiving_Selector_Parsing) | None | 88 | 88 | 88 | 82 | 82 | 88 |
 | [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()) | None | 46 | 46 | 79 | 63 | 63 | 46 |
 | css > types > image > gradient > radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
 | css > types > image > gradient > repeating-radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
@@ -371,3 +369,4 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
+| [svg > elements > path > d > path](https://developer.mozilla.org/docs/Web/CSS/path()) | None | 52 | 52 | 79 | 97 | 97 | 52 |
