@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.10
-- Generated date: Wed, 02 Mar 2022 14:06:28 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.11
+- Generated date: Sat, 12 Mar 2022 11:09:51 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -65,7 +65,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > EventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_touch | None | 55 | 55 | 79 | 61 | 61 | 55 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_wheel | None | 73 | 73 | 79 | 84 | 84 | 73 |
-| api > EventTarget > addEventListener > options_parameter > options_signal_parameter | None | 90 | 90 | 90 | 86 | 86 | 90 |
 | [api > FeaturePolicy](https://developer.mozilla.org/docs/Web/API/FeaturePolicy) | None | 74 | 74 | 79 | 65 | 65 | 74 |
 | api > FetchEvent > handled | None | 86 | 86 | 86 | 84 | 84 | 86 |
 | [api > FetchEvent > resultingClientId](https://developer.mozilla.org/docs/Web/API/FetchEvent/resultingClientId) | None | 72 | 72 | 79 | 65 | 65 | 72 |
@@ -121,7 +120,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
 | [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 44 | 44 | 69 |
 | api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
-| [api > Performance > onresourcetimingbufferfull](https://developer.mozilla.org/docs/Web/API/Performance/onresourcetimingbufferfull) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > setResourceTimingBufferSize](https://developer.mozilla.org/docs/Web/API/Performance/setResourceTimingBufferSize) | 💻 | 46 | 46 | 12 | 35 | 35 | 46 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
