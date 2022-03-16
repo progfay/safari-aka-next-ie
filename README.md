@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.11
-- Generated date: Sat, 12 Mar 2022 11:09:51 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.12
+- Generated date: Wed, 16 Mar 2022 08:44:55 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -38,10 +38,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
-| api > Document > onpointerlockchange | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
-| api > Document > onpointerlockerror | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
-| [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 45 | 45 | 13 | 50 | 50 | 45 |
-| [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 45 | 45 | 13 | 50 | 50 | 45 |
+| [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
+| [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > selectstart_event](https://developer.mozilla.org/docs/Web/API/Document/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 1 |
 | [api > Document > touchcancel_event](https://developer.mozilla.org/docs/Web/API/Document/touchcancel_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > Document > touchend_event](https://developer.mozilla.org/docs/Web/API/Document/touchend_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
@@ -116,6 +114,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | 31 | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
+| [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | None | 94 | 94 | 94 | 99 | 99 | 94 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
 | [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 44 | 44 | 69 |
@@ -166,7 +165,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ShadowRoot > pointerLockElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement) | 💻 | 53 | 53 | 79 | 63 | 63 | 53 |
 | [api > SharedWorkerGlobalScope > connect_event](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/connect_event) | None | 4 | 18 | 79 | 29 | 29 | ≤37 |
 | [api > SharedWorkerGlobalScope > name](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name) | None | 4 | 18 | 79 | 29 | 29 | 4.4 |
-| [api > SharedWorkerGlobalScope > onconnect](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/onconnect) | None | 4 | 18 | 79 | 29 | 29 | 4.4 |
 | [api > StorageManager > estimate](https://developer.mozilla.org/docs/Web/API/StorageManager/estimate) | None | 61 | 61 | 79 | 57 | 57 | 61 |
 | [api > Touch](https://developer.mozilla.org/docs/Web/API/Touch) | 📱 | 22 | 25 | ≤18 | 52 | 6 | 4.4 |
 | [api > TouchEvent](https://developer.mozilla.org/docs/Web/API/TouchEvent) | 📱 | 22 | 25 | 79 | 52 | 6 | ≤37 |
@@ -306,7 +304,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
 | [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | None | 42 | 42 | 79 | 53 | 53 | 56 |
 | [css > properties > text-align-last](https://developer.mozilla.org/docs/Web/CSS/text-align-last) | None | 47 | 47 | 12 | 49 | 49 | 47 |
-| css > properties > text-align > match-parent | None | 16 | 18 | 79 | 40 | 40 | 37 |
 | css > properties > text-transform > greek_accented_characters | None | 34 | 34 | 79 | 15 | 15 | 4.4 |
 | css > properties > user-select > all | None | 53 | 53 | 79 | 1 | 4 | 53 |
 | css > selectors > after > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | ≤37 |
