@@ -11,12 +11,13 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.12
-- Generated date: Wed, 16 Mar 2022 08:44:55 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.13
+- Generated date: Wed, 23 Mar 2022 11:36:28 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
 | [api > AbortSignal > reason](https://developer.mozilla.org/docs/Web/API/AbortSignal/reason) | None | 98 | 98 | 98 | 97 | 97 | 98 |
+| [api > AbortSignal > throwIfAborted](https://developer.mozilla.org/docs/Web/API/AbortSignal/throwIfAborted) | None | 100 | 100 | 100 | 97 | 97 | 100 |
 | api > AudioContext > AudioContext > options_latencyHint_parameter | None | 60 | 60 | 79 | 61 | 61 | 60 |
 | [api > AudioWorkletNode > processorerror_event](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event) | None | 66 | 66 | 79 | 76 | 79 | 66 |
 | api > BarProp > visible > returns_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
@@ -29,7 +30,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > CustomElementRegistry > builtin | None | 67 | 67 | 79 | 63 | 63 | 67 |
 | api > DedicatedWorkerGlobalScope > cancelAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
 | [api > DedicatedWorkerGlobalScope > messageerror_event](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > DedicatedWorkerGlobalScope > onmessageerror](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > DedicatedWorkerGlobalScope > requestAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
 | [api > DeviceMotionEvent](https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
 | [api > DeviceMotionEventAcceleration](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
@@ -142,10 +142,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Request > Request > reponse_body_readablestream | 📱 | 43 | 43 | ≤79 | 65 | 65 | 43 |
 | api > ResizeObserverEntry > devicePixelContentBoxSize | None | 84 | 84 | 84 | 93 | 93 | 84 |
 | api > Response > Response > body_parameter_optional | None | 40 | 40 | ≤79 | 59 | 59 | 40 |
-| [api > SVGAnimationElement > onbegin](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onbegin) | None | 35 | 35 | 79 | 93 | 93 | 37 |
-| [api > SVGAnimationElement > onend](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onend) | None | 35 | 35 | 79 | 93 | 93 | 37 |
-| [api > SVGAnimationElement > onrepeat](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/onrepeat) | None | 35 | 35 | 79 | 93 | 93 | 37 |
-| [api > SVGAnimationElement > repeatEvent_event](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/repeatEvent_event) | None | 31 | 31 | 79 | 6 | 6 | 4.4.3 |
 | api > SVGElement > focus > options_preventScroll_parameter | None | 78 | 78 | ≤79 | 68 | 68 | 78 |
 | api > SVGElement > nonce | None | 61 | 61 | 79 | 75 | 79 | 61 |
 | api > SVGFESpecularLightingElement > kernelUnitLengthX | None | 45 | 45 | 12 | 3 | 4 | 45 |
@@ -247,9 +243,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Window > requestIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
 | api > Window > scrollX > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
 | api > Window > scrollY > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
-| [api > WindowEventHandlers > onmessageerror](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
@@ -265,7 +259,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > at-rules > counter-style](https://developer.mozilla.org/docs/Web/CSS/@counter-style) | None | 91 | 91 | 91 | 33 | 33 | 91 |
 | [css > at-rules > font-face > ascent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [css > at-rules > font-face > descent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
-| [css > at-rules > font-face > font-variation-settings](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | [css > at-rules > font-face > line-gap-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [css > at-rules > font-face > size-adjust](https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust) | None | 92 | 92 | 92 | 92 | 92 | 92 |
 | css > at-rules > media > media_query_values | None | 66 | 66 | 79 | 59 | 59 | 66 |
@@ -355,7 +348,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
 | [http > headers > Feature-Policy > midi](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/midi) | None | 60 | 60 | 79 | 65 | 65 | 60 |
 | [http > headers > Feature-Policy > payment](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/payment) | None | 60 | 60 | 79 | 65 | 65 | 60 |
-| [http > headers > Referrer-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy) | 💻 | 56 | 56 | 79 | 50 | 50 | 56 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
 | [http > headers > Sec-Fetch-Dest](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Dest) | None | 80 | 80 | 80 | 90 | 90 | 80 |
 | [http > headers > Sec-Fetch-Mode](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode) | None | 76 | 76 | 79 | 90 | 90 | 76 |
