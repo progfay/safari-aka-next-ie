@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.13
-- Generated date: Wed, 23 Mar 2022 11:36:28 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.14
+- Generated date: Wed, 30 Mar 2022 13:00:00 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -111,8 +111,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MediaTrackSupportedConstraints > autoGainControl](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/autoGainControl) | None | 69 | 69 | ≤79 | 55 | 55 | 69 |
 | [api > MediaTrackSupportedConstraints > noiseSuppression](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression) | None | 69 | 69 | ≤79 | 55 | 55 | 69 |
 | [api > MessagePort > messageerror_event](https://developer.mozilla.org/docs/Web/API/MessagePort/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > MessagePort > onmessageerror](https://developer.mozilla.org/docs/Web/API/MessagePort/onmessageerror) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > Navigator > connection](https://developer.mozilla.org/docs/Web/API/Navigator/connection) | None | 61 | 38 | 79 | 31 | 14 | 50 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | None | 94 | 94 | 94 | 99 | 99 | 94 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
@@ -151,11 +149,10 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ScreenOrientation](https://developer.mozilla.org/docs/Web/API/ScreenOrientation) | None | 38 | 38 | 79 | 43 | 43 | 38 |
 | api > SecurityPolicyViolationEvent > worker_support | None | 56 | 56 | 15 | 63 | 63 | 56 |
 | [api > Selection > removeRange](https://developer.mozilla.org/docs/Web/API/Selection/removeRange) | None | 58 | 58 | 12 | 1 | 4 | 58 |
-| [api > ServiceWorkerGlobalScope > onnotificationclick](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onnotificationclick) | None | 40 | 40 | 17 | 44 | 44 | 40 |
-| [api > ServiceWorkerGlobalScope > onnotificationclose](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onnotificationclose) | None | 50 | 50 | 17 | 44 | 44 | 50 |
-| [api > ServiceWorkerGlobalScope > onpush](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onpush) | None | 42 | 42 | 17 | 44 | 44 | 42 |
-| [api > ServiceWorkerGlobalScope > onsync](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/onsync) | None | 49 | 49 | 79 | 44 | 44 | 49 |
+| [api > ServiceWorkerGlobalScope > notificationclick_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclick_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
+| [api > ServiceWorkerGlobalScope > notificationclose_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclose_event) | None | 50 | 50 | 17 | 44 | 44 | 50 |
 | [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
+| [api > ServiceWorkerGlobalScope > sync_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/sync_event) | None | 49 | 49 | 79 | 44 | 44 | 49 |
 | api > ShadowRoot > slotAssignment | None | 86 | 86 | 86 | 92 | 92 | 86 |
 | [api > ShadowRoot > fullscreenElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement) | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | [api > ShadowRoot > pointerLockElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement) | 💻 | 53 | 53 | 79 | 63 | 63 | 53 |
@@ -236,8 +233,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Window > gamepadconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepadconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
 | [api > Window > gamepaddisconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepaddisconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
 | [api > Window > messageerror_event](https://developer.mozilla.org/docs/Web/API/Window/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > Window > ondevicemotion](https://developer.mozilla.org/docs/Web/API/Window/ondevicemotion) | 📱 | 31 | 31 | 12 | 9 | 9 | ≤37 |
-| [api > Window > ondeviceorientation](https://developer.mozilla.org/docs/Web/API/Window/ondeviceorientation) | 📱 | 7 | 18 | 12 | 9 | 9 | 3 |
 | api > Window > open > features_parameter_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
 | api > Window > open > once_per_event | None | 23 | 25 | 12 | 65 | 65 | ≤37 |
 | [api > Window > requestIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
@@ -303,7 +298,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > selectors > any-link > not_match_link | None | 65 | 65 | 79 | 87 | 87 | 65 |
 | css > selectors > before > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | ≤37 |
 | css > selectors > first-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
-| [css > selectors > focus-visible](https://developer.mozilla.org/docs/Web/CSS/:focus-visible) | None | 86 | 86 | 86 | 85 | 85 | 86 |
 | [css > selectors > fullscreen](https://developer.mozilla.org/docs/Web/CSS/:fullscreen) | 💻 | 71 | 71 | 12 | 64 | 64 | 71 |
 | css > selectors > indeterminate > radio | None | 39 | 39 | 79 | 51 | 51 | 39 |
 | css > selectors > last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
