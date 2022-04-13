@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.15
-- Generated date: Thu, 07 Apr 2022 13:58:38 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.16
+- Generated date: Wed, 13 Apr 2022 13:27:09 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -262,7 +262,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > at-rules > page](https://developer.mozilla.org/docs/Web/CSS/@page) | None | 2 | 18 | 12 | 19 | 19 | 37 |
 | css > properties > align-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-items > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
-| css > properties > align-self > flex_context > left_right | None | 93 | 93 | 93 | 52 | 52 | 93 |
 | css > properties > align-self > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | [css > properties > break-after > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-after) | None | 50 | 50 | 12 | 65 | 65 | 50 |
 | [css > properties > break-before > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-before) | None | 50 | 50 | 12 | 65 | 65 | 50 |
@@ -306,6 +305,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > selectors > nth-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > nth-last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > only-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
+| [css > selectors > selection](https://developer.mozilla.org/docs/Web/CSS/::selection) | 💻 | 1 | 18 | 12 | 62 | 62 | 37 |
 | css > selectors > visited > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 4.4 |
 | [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()) | None | 46 | 46 | 79 | 63 | 63 | 46 |
 | css > types > image > gradient > radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
