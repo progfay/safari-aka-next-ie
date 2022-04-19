@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.16
-- Generated date: Wed, 13 Apr 2022 13:27:09 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.17
+- Generated date: Tue, 19 Apr 2022 14:27:43 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -63,7 +63,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > EventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_touch | None | 55 | 55 | 79 | 61 | 61 | 55 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_wheel | None | 73 | 73 | 79 | 84 | 84 | 73 |
-| [api > FeaturePolicy](https://developer.mozilla.org/docs/Web/API/FeaturePolicy) | None | 74 | 74 | 79 | 65 | 65 | 74 |
 | api > FetchEvent > handled | None | 86 | 86 | 86 | 84 | 84 | 86 |
 | [api > FetchEvent > resultingClientId](https://developer.mozilla.org/docs/Web/API/FetchEvent/resultingClientId) | None | 72 | 72 | 79 | 65 | 65 | 72 |
 | [api > FontFace > ascentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/ascentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
@@ -84,12 +83,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
 | api > HTMLCanvasElement > toBlob > type_parameter_webp | None | 50 | 50 | 79 | 96 | 96 | 50 |
 | api > HTMLCanvasElement > toDataURL > type_parameter_webp | None | 17 | 18 | 79 | 96 | 96 | ≤37 |
-| [api > HTMLCanvasElement > transferControlToOffscreen](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen) | None | 69 | 69 | 79 | 44 | 44 | 69 |
 | [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
-| api > HTMLElement > autocapitalize | 📱 | 66 | 66 | 79 | 83 | 83 | 66 |
 | api > HTMLElement > focus > options_preventScroll_parameter | None | 64 | 64 | 17 | 68 | 68 | 64 |
 | [api > HTMLFormElement > requestSubmit](https://developer.mozilla.org/docs/Web/API/HTMLFormElement/requestSubmit) | None | 76 | 76 | 79 | 75 | 79 | 76 |
-| [api > HTMLIFrameElement > featurePolicy](https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/featurePolicy) | None | 74 | 74 | 79 | 69 | 65 | 74 |
 | api > HTMLLinkElement > imageSizes | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | api > HTMLLinkElement > imageSrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | [api > HTMLMediaElement > captureStream](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream) | None | 62 | 62 | 79 | 15 | 15 | 62 |
@@ -115,7 +111,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | None | 94 | 94 | 94 | 99 | 99 | 94 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
-| [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 44 | 44 | 69 |
 | api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
 | [api > Performance > setResourceTimingBufferSize](https://developer.mozilla.org/docs/Web/API/Performance/setResourceTimingBufferSize) | 💻 | 46 | 46 | 12 | 35 | 35 | 46 |
@@ -280,7 +275,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > properties > gap > multicol_context](https://developer.mozilla.org/docs/Web/CSS/gap) | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
-| [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 63 | 55 |
+| [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 79 | 55 |
 | css > properties > overflow-wrap > anywhere | None | 80 | 80 | 80 | 65 | 65 | 80 |
 | css > properties > overflow-x > clip | None | 90 | 90 | 90 | 81 | 81 | 90 |
 | css > properties > overflow-y > clip | None | 90 | 90 | 90 | 81 | 81 | 90 |
