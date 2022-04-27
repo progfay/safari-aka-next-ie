@@ -11,17 +11,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.17
-- Generated date: Tue, 19 Apr 2022 14:27:43 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.18
+- Generated date: Wed, 27 Apr 2022 12:41:04 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
-| [api > AbortSignal > reason](https://developer.mozilla.org/docs/Web/API/AbortSignal/reason) | None | 98 | 98 | 98 | 97 | 97 | 98 |
-| [api > AbortSignal > throwIfAborted](https://developer.mozilla.org/docs/Web/API/AbortSignal/throwIfAborted) | None | 100 | 100 | 100 | 97 | 97 | 100 |
 | api > AudioContext > AudioContext > options_latencyHint_parameter | None | 60 | 60 | 79 | 61 | 61 | 60 |
 | [api > AudioWorkletNode > processorerror_event](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event) | None | 66 | 66 | 79 | 76 | 79 | 66 |
 | api > BarProp > visible > returns_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
-| [api > BroadcastChannel > messageerror_event](https://developer.mozilla.org/docs/Web/API/BroadcastChannel/messageerror_event) | None | 60 | 60 | 79 | 57 | 57 | 60 |
 | [api > CSSCounterStyleRule](https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule) | None | 91 | 91 | 91 | 33 | 33 | 91 |
 | api > CanvasRenderingContext2D > drawImage > ImageBitmap_source_image | None | 30 | 30 | 79 | 42 | 42 | ≤37 |
 | api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 79 | 56 | 56 | 59 |
@@ -126,7 +123,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > PerformanceServerTiming](https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming) | None | 65 | 65 | 79 | 61 | 61 | 65 |
 | [api > PointerEvent > getCoalescedEvents](https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents) | None | 58 | 58 | 79 | 59 | 79 | 58 |
 | api > PointerEvent > getPredictedEvents | None | 77 | 77 | 79 | 89 | 89 | 77 |
-| api > RTCDataChannel > sctp-sdp-21 | None | 58 | 58 | 79 | 63 | 63 | 58 |
+| api > RTCDataChannel > sctp_sdp_21 | None | 58 | 58 | 79 | 63 | 63 | 58 |
 | api > RTCPeerConnection > setRemoteDescription > implicit_rollback | 💻 | 80 | 80 | 80 | 70 | 79 | 80 |
 | [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | ≤37 |
 | [api > RTCRtpSender > rtcpTransport](https://developer.mozilla.org/docs/Web/API/RTCRtpSender/rtcpTransport) | None | 75 | 75 | 13 | 34 | 34 | 75 |
@@ -221,7 +218,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | 25 | ≤37 |
-| api > WheelEvent > pinch-to-zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | ≤37 |
+| api > WheelEvent > pinch_to_zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | ≤37 |
 | [api > Window > cancelIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
 | [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
 | [api > Window > deviceorientation_event](https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
@@ -302,7 +299,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > selectors > only-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | [css > selectors > selection](https://developer.mozilla.org/docs/Web/CSS/::selection) | 💻 | 1 | 18 | 12 | 62 | 62 | 37 |
 | css > selectors > visited > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 4.4 |
-| [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()) | None | 46 | 46 | 79 | 63 | 63 | 46 |
+| [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()) | None | 46 | 46 | 79 | 97 | 97 | 46 |
 | css > types > image > gradient > radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
 | css > types > image > gradient > repeating-radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
 | css > types > length-percentage > Q | None | 63 | 63 | 79 | 49 | 49 | 63 |
@@ -315,7 +312,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | html > elements > link > rel > icon | 💻 | 4 | 18 | 12 | 2 | 4 | 38 |
 | [html > elements > link > rel > prefetch](https://developer.mozilla.org/docs/Web/HTML/Link_types/prefetch) | None | 8 | 18 | 12 | 2 | 4 | 4.4 |
 | html > elements > textarea > placeholder > line_breaks | None | 36 | 36 | 12 | 59 | 59 | 37 |
-| [html > global_attributes > autocapitalize](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/autocapitalize) | 📱 | 43 | 43 | 79 | 83 | 83 | 43 |
 | [html > global_attributes > inputmode](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/inputmode) | 📱 | 66 | 66 | 79 | 95 | 79 | 66 |
 | [html > global_attributes > is](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/is) | None | 67 | 67 | 79 | 63 | 63 | 67 |
 | html > global_attributes > nonce > nonce_hiding | None | 61 | 61 | 79 | 75 | 79 | 61 |
@@ -330,7 +326,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > csp > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
-| [http > headers > csp > Content-Security-Policy > worker-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/worker-src) | None | 59 | 59 | 79 | 58 | 58 | 59 |
 | [http > headers > Device-Memory](https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory) | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
 | [http > headers > Feature-Policy > autoplay](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/autoplay) | None | 64 | 64 | 79 | 65 | 65 | 64 |
 | [http > headers > Feature-Policy > encrypted-media](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/encrypted-media) | None | 60 | 60 | 79 | 65 | 65 | 60 |
