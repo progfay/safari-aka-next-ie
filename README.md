@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.20
-- Generated date: Wed, 11 May 2022 01:44:01 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.2.0
+- Generated date: Tue, 17 May 2022 13:17:23 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -36,6 +36,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
+| [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
 | [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > selectstart_event](https://developer.mozilla.org/docs/Web/API/Document/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 1 |
@@ -44,7 +45,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Document > touchmove_event](https://developer.mozilla.org/docs/Web/API/Document/touchmove_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > Document > touchstart_event](https://developer.mozilla.org/docs/Web/API/Document/touchstart_event) | 📱 | 22 | 25 | 12 | 52 | 6 | ≤37 |
 | [api > Document > wheel_event](https://developer.mozilla.org/docs/Web/API/Document/wheel_event) | 💻 | 61 | 61 | 12 | 17 | 17 | 61 |
-| [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
 | [api > EXT_color_buffer_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_float) | 📱 | 63 | 63 | 79 | 49 | 49 | 63 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
@@ -73,12 +73,12 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > GlobalEventHandlers > onclose](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onclose) | None | 32 | 32 | 79 | 53 | 53 | 4.4.3 |
 | [api > GlobalEventHandlers > onsecuritypolicyviolation](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onsecuritypolicyviolation) | 💻 | 97 | 97 | 97 | 93 | 93 | 97 |
 | [api > GlobalEventHandlers > onslotchange](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onslotchange) | 💻 | 97 | 97 | 97 | 93 | 93 | 97 |
+| api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
 | api > HTMLCanvasElement > getContext > bitmaprenderer_context | None | 56 | 56 | 79 | 46 | 46 | 56 |
-| api > HTMLCanvasElement > getContext > webgl_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 37 |
-| api > HTMLCanvasElement > getContext > webgl_context > options_failIfMajorPerformanceCaveat_parameter | None | 33 | 33 | 12 | 41 | 41 | 37 |
 | api > HTMLCanvasElement > getContext > webgl2_context > options_alpha_parameter | None | 56 | 56 | 79 | 30 | 30 | 56 |
 | api > HTMLCanvasElement > getContext > webgl2_context > options_failIfMajorPerformanceCaveat_parameter | None | 56 | 56 | 79 | 41 | 41 | 56 |
-| api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
+| api > HTMLCanvasElement > getContext > webgl_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 37 |
+| api > HTMLCanvasElement > getContext > webgl_context > options_failIfMajorPerformanceCaveat_parameter | None | 33 | 33 | 12 | 41 | 41 | 37 |
 | api > HTMLCanvasElement > toBlob > type_parameter_webp | None | 50 | 50 | 79 | 96 | 96 | 50 |
 | api > HTMLCanvasElement > toDataURL > type_parameter_webp | None | 17 | 18 | 79 | 96 | 96 | ≤37 |
 | [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
@@ -146,9 +146,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ServiceWorkerGlobalScope > notificationclose_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclose_event) | None | 50 | 50 | 17 | 44 | 44 | 50 |
 | [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
 | [api > ServiceWorkerGlobalScope > sync_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/sync_event) | None | 49 | 49 | 79 | 44 | 44 | 49 |
-| api > ShadowRoot > slotAssignment | None | 86 | 86 | 86 | 92 | 92 | 86 |
 | [api > ShadowRoot > fullscreenElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement) | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | [api > ShadowRoot > pointerLockElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement) | 💻 | 53 | 53 | 79 | 63 | 63 | 53 |
+| api > ShadowRoot > slotAssignment | None | 86 | 86 | 86 | 92 | 92 | 86 |
 | [api > SharedWorkerGlobalScope > connect_event](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/connect_event) | None | 4 | 18 | 79 | 29 | 29 | ≤37 |
 | [api > SharedWorkerGlobalScope > name](https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name) | None | 4 | 18 | 79 | 29 | 29 | 4.4 |
 | [api > StorageManager > estimate](https://developer.mozilla.org/docs/Web/API/StorageManager/estimate) | None | 61 | 61 | 79 | 57 | 57 | 61 |
@@ -275,14 +275,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
 | [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 79 | 55 |
+| css > properties > overflow > clip | 💻 | 90 | 90 | 90 | 81 | 81 | 90 |
+| css > properties > overflow > multiple_keywords | None | 68 | 68 | 79 | 61 | 61 | 68 |
 | css > properties > overflow-wrap > anywhere | None | 80 | 80 | 80 | 65 | 65 | 80 |
 | css > properties > overflow-x > clip | None | 90 | 90 | 90 | 81 | 81 | 90 |
 | css > properties > overflow-y > clip | None | 90 | 90 | 90 | 81 | 81 | 90 |
-| css > properties > overflow > clip | 💻 | 90 | 90 | 90 | 81 | 81 | 90 |
-| css > properties > overflow > multiple_keywords | None | 68 | 68 | 79 | 61 | 61 | 68 |
+| [css > properties > overscroll-behavior](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior) | None | 63 | 63 | 18 | 59 | 59 | 63 |
 | [css > properties > overscroll-behavior-x](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x) | None | 63 | 63 | 18 | 59 | 59 | 63 |
 | [css > properties > overscroll-behavior-y](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y) | None | 63 | 63 | 18 | 59 | 59 | 63 |
-| [css > properties > overscroll-behavior](https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior) | None | 63 | 63 | 18 | 59 | 59 | 63 |
 | [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
 | [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | None | 42 | 42 | 79 | 53 | 53 | 56 |
 | [css > properties > text-align-last](https://developer.mozilla.org/docs/Web/CSS/text-align-last) | None | 47 | 47 | 12 | 49 | 49 | 47 |
@@ -301,11 +301,11 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > selectors > only-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | [css > selectors > selection](https://developer.mozilla.org/docs/Web/CSS/::selection) | 💻 | 1 | 18 | 12 | 62 | 62 | 37 |
 | css > selectors > visited > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 4.4 |
-| [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()) | None | 46 | 46 | 79 | 97 | 97 | 46 |
+| [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/path) | None | 46 | 46 | 79 | 97 | 97 | 46 |
 | css > types > image > gradient > radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
 | css > types > image > gradient > repeating-radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | ≤37 |
-| css > types > length-percentage > Q | None | 63 | 63 | 79 | 49 | 49 | 63 |
 | css > types > length > Q | None | 63 | 63 | 79 | 49 | 49 | 63 |
+| css > types > length-percentage > Q | None | 63 | 63 | 79 | 49 | 49 | 63 |
 | [css > types > resolution](https://developer.mozilla.org/docs/Web/CSS/resolution) | None | 29 | 29 | 12 | 8 | 8 | ≤37 |
 | html > elements > area > referrerpolicy | 💻 | 51 | 51 | 79 | 50 | 50 | 51 |
 | html > elements > iframe > sandbox-allow-downloads | None | 83 | 83 | 83 | 82 | 82 | 83 |
@@ -327,7 +327,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | http > headers > Cache-Control > stale-while-revalidate | None | 75 | 75 | 79 | 68 | 68 | 75 |
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
-| [http > headers > csp > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
 | [http > headers > Device-Memory](https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory) | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
 | [http > headers > Feature-Policy > autoplay](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/autoplay) | None | 64 | 64 | 79 | 65 | 65 | 64 |
 | [http > headers > Feature-Policy > encrypted-media](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/encrypted-media) | None | 60 | 60 | 79 | 65 | 65 | 60 |
@@ -340,6 +339,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Sec-Fetch-Mode](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | [http > headers > Sec-Fetch-Site](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Site) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | [http > headers > Sec-Fetch-User](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User) | None | 76 | 76 | 79 | 90 | 90 | 76 |
+| [http > headers > csp > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
