@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.2.0
-- Generated date: Tue, 17 May 2022 13:17:23 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.2.1
+- Generated date: Wed, 18 May 2022 14:29:21 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -144,7 +144,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Selection > removeRange](https://developer.mozilla.org/docs/Web/API/Selection/removeRange) | None | 58 | 58 | 12 | 1 | 4 | 58 |
 | [api > ServiceWorkerGlobalScope > notificationclick_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclick_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
 | [api > ServiceWorkerGlobalScope > notificationclose_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclose_event) | None | 50 | 50 | 17 | 44 | 44 | 50 |
-| [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | 17 | 44 | 44 | 40 |
+| [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | None | 40 | 40 | 17 | 44 | 48 | 40 |
 | [api > ServiceWorkerGlobalScope > sync_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/sync_event) | None | 49 | 49 | 79 | 44 | 44 | 49 |
 | [api > ShadowRoot > fullscreenElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement) | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | [api > ShadowRoot > pointerLockElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement) | 💻 | 53 | 53 | 79 | 63 | 63 | 53 |
