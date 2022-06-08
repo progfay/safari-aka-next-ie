@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.0.1
-- Generated date: Wed, 01 Jun 2022 13:01:19 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.0.2
+- Generated date: Wed, 08 Jun 2022 16:37:08 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -92,7 +92,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLLinkElement > imageSizes | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | api > HTMLLinkElement > imageSrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | [api > HTMLMediaElement > captureStream](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream) | None | 62 | 62 | 79 | 15 | 15 | 62 |
-| [api > HTMLScriptElement > supports](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/supports) | None | 97 | 97 | 97 | 94 | 94 | 97 |
+| [api > HTMLScriptElement > supports](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/supports) | None | 96 | 96 | 96 | 94 | 94 | 96 |
 | [api > HTMLSlotElement > assign](https://developer.mozilla.org/docs/Web/API/HTMLSlotElement/assign) | None | 86 | 86 | 86 | 92 | 92 | 86 |
 | api > Headers > lexicographical_sorting | None | 57 | 57 | 79 | 44 | 44 | 57 |
 | api > IDBRequest > error > DOMException | None | 48 | 48 | ≤18 | 58 | 58 | 48 |
@@ -336,12 +336,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > Device-Memory](https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory) | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
-| [http > headers > Feature-Policy > autoplay](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/autoplay) | None | 64 | 64 | 79 | 65 | 65 | 64 |
-| [http > headers > Feature-Policy > encrypted-media](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/encrypted-media) | None | 60 | 60 | 79 | 65 | 65 | 60 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
-| [http > headers > Feature-Policy > midi](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/midi) | None | 60 | 60 | 79 | 65 | 65 | 60 |
-| [http > headers > Feature-Policy > payment](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/payment) | None | 60 | 60 | 79 | 65 | 65 | 60 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
 | [http > headers > Sec-Fetch-Dest](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Dest) | None | 80 | 80 | 80 | 90 | 90 | 80 |
 | [http > headers > Sec-Fetch-Mode](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode) | None | 76 | 76 | 79 | 90 | 90 | 76 |
