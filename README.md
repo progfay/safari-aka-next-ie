@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.4
-- Generated date: Wed, 13 Jul 2022 14:08:47 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.5
+- Generated date: Fri, 22 Jul 2022 11:45:57 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -28,7 +28,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 79 | 56 | 56 | 59 |
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
 | [api > CryptoKey](https://developer.mozilla.org/docs/Web/API/CryptoKey) | None | 37 | 37 | 12 | 34 | 34 | 37 |
-| api > CustomElementRegistry > builtin | None | 67 | 67 | 79 | 63 | 63 | 67 |
+| api > CustomElementRegistry > builtin_element_support | None | 67 | 67 | 79 | 63 | 63 | 67 |
 | api > DOMException > serializable_object | None | 77 | 77 | 79 | 101 | 101 | 77 |
 | api > DedicatedWorkerGlobalScope > cancelAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
 | [api > DedicatedWorkerGlobalScope > messageerror_event](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
@@ -64,8 +64,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > FontFace > variant](https://developer.mozilla.org/docs/Web/API/FontFace/variant) | None | 35 | 35 | 79 | 41 | 41 | 37 |
 | [api > FontFace > variationSettings](https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | [api > GamepadHapticActuator](https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator) | None | 68 | 68 | 15 | 55 | 55 | 68 |
-| [api > GlobalEventHandlers > onsecuritypolicyviolation](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onsecuritypolicyviolation) | 💻 | 97 | 97 | 97 | 93 | 93 | 97 |
-| [api > GlobalEventHandlers > onslotchange](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onslotchange) | 💻 | 97 | 97 | 97 | 93 | 93 | 97 |
 | api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
 | api > HTMLCanvasElement > getContext > bitmaprenderer_context | None | 56 | 56 | 79 | 46 | 46 | 56 |
 | api > HTMLCanvasElement > getContext > webgl2_context > options_alpha_parameter | None | 56 | 56 | 79 | 30 | 30 | 56 |
@@ -276,7 +274,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > rotate > x_y_z_angle | None | 104 | 104 | 104 | 72 | 79 | 104 |
 | [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
 | [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | None | 42 | 42 | 79 | 53 | 53 | 56 |
-| [css > properties > text-align-last](https://developer.mozilla.org/docs/Web/CSS/text-align-last) | None | 47 | 47 | 12 | 49 | 49 | 47 |
 | css > properties > text-transform > greek_accented_characters | None | 34 | 34 | 79 | 15 | 15 | 4.4 |
 | css > selectors > after > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | 4.4 |
 | css > selectors > any-link > not_match_link | None | 65 | 65 | 79 | 87 | 87 | 65 |
@@ -317,6 +314,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | http > headers > Cache-Control > stale-while-revalidate | None | 75 | 75 | 79 | 68 | 68 | 75 |
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
+| [http > headers > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
 | [http > headers > Device-Memory](https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory) | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
@@ -325,8 +323,14 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Sec-Fetch-Mode](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | [http > headers > Sec-Fetch-Site](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Site) | None | 76 | 76 | 79 | 90 | 90 | 76 |
 | [http > headers > Sec-Fetch-User](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User) | None | 76 | 76 | 79 | 90 | 90 | 76 |
-| [http > headers > csp > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| [javascript > builtins > Error > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| [javascript > builtins > EvalError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| [javascript > builtins > RangeError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| [javascript > builtins > ReferenceError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
+| [javascript > builtins > SyntaxError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| [javascript > builtins > TypeError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| [javascript > builtins > URIError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
 | [svg > elements > path > d > path](https://developer.mozilla.org/docs/Web/CSS/path()) | None | 52 | 52 | 79 | 97 | 97 | 52 |
