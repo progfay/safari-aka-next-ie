@@ -11,14 +11,13 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.5
-- Generated date: Fri, 22 Jul 2022 11:45:57 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.6
+- Generated date: Tue, 26 Jul 2022 13:58:28 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
 | api > AudioContext > AudioContext > options_latencyHint_parameter | None | 60 | 60 | 79 | 61 | 61 | 60 |
 | [api > AudioContext > outputLatency](https://developer.mozilla.org/docs/Web/API/AudioContext/outputLatency) | None | 102 | 102 | 102 | 70 | 79 | 102 |
-| [api > AudioWorkletNode > processorerror_event](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event) | None | 66 | 66 | 79 | 76 | 79 | 66 |
 | api > BarProp > visible > returns_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
 | [api > CSSCounterStyleRule](https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule) | None | 91 | 91 | 91 | 33 | 33 | 91 |
 | [api > CSSStyleSheet > CSSStyleSheet](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/CSSStyleSheet) | None | 73 | 73 | 79 | 101 | 101 | 73 |
@@ -27,7 +26,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > CanvasRenderingContext2D > drawImage > ImageBitmap_source_image | None | 30 | 30 | 79 | 42 | 42 | ≤37 |
 | api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 79 | 56 | 56 | 59 |
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
-| [api > CryptoKey](https://developer.mozilla.org/docs/Web/API/CryptoKey) | None | 37 | 37 | 12 | 34 | 34 | 37 |
 | api > CustomElementRegistry > builtin_element_support | None | 67 | 67 | 79 | 63 | 63 | 67 |
 | api > DOMException > serializable_object | None | 77 | 77 | 79 | 101 | 101 | 77 |
 | api > DedicatedWorkerGlobalScope > cancelAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
@@ -42,7 +40,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
 | [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
-| [api > EXT_color_buffer_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_float) | 📱 | 63 | 63 | 79 | 49 | 49 | 63 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 4.4 |
@@ -102,12 +99,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Node > selectstart_event](https://developer.mozilla.org/docs/Web/API/Node/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 4.4 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
 | api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
-| [api > Performance > resourcetimingbufferfull_event](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event) | 💻 | 46 | 46 | 79 | 35 | 35 | 46 |
-| [api > Performance > setResourceTimingBufferSize](https://developer.mozilla.org/docs/Web/API/Performance/setResourceTimingBufferSize) | 💻 | 46 | 46 | 12 | 35 | 35 | 46 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
-| [api > PerformanceObserverEntryList > getEntries](https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntries) | None | 52 | 52 | 79 | 57 | 57 | 52 |
-| [api > PerformanceObserverEntryList > getEntriesByName](https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntriesByName) | None | 52 | 52 | 79 | 57 | 57 | 52 |
-| [api > PerformanceObserverEntryList > getEntriesByType](https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntriesByType) | None | 52 | 52 | 79 | 57 | 57 | 52 |
 | [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
 | [api > PerformanceResourceTiming > encodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
 | [api > PerformanceResourceTiming > serverTiming](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming) | None | 65 | 65 | 79 | 61 | 61 | 65 |
@@ -254,8 +246,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > align-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-items > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > align-self > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
-| [css > properties > break-after > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-after) | None | 50 | 50 | 12 | 65 | 65 | 50 |
-| [css > properties > break-before > multicol_context](https://developer.mozilla.org/docs/Web/CSS/break-before) | None | 50 | 50 | 12 | 65 | 65 | 50 |
+| css > properties > break-after > multicol_context | None | 50 | 50 | 12 | 65 | 65 | 50 |
+| css > properties > break-before > multicol_context | None | 50 | 50 | 12 | 65 | 65 | 50 |
 | css > properties > break-inside > paged_context > avoid-page | None | 51 | 51 | 12 | 92 | 92 | 51 |
 | css > properties > clip-path > animations | None | 55 | 55 | 79 | 49 | 49 | 55 |
 | css > properties > column-gap > multicol_context > calc_values | None | 66 | 66 | 16 | 61 | 61 | 66 |
@@ -265,7 +257,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > display > list-item > legend-support | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | css > properties > flex-basis > content | 💻 | 94 | 94 | 94 | 61 | 61 | 94 |
 | css > properties > flex-grow > less_than_zero_animate | None | 49 | 49 | 79 | 32 | 32 | 49 |
-| [css > properties > gap > multicol_context](https://developer.mozilla.org/docs/Web/CSS/gap) | None | 66 | 66 | 16 | 61 | 61 | 66 |
+| css > properties > gap > multicol_context | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
 | [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 79 | 55 |
