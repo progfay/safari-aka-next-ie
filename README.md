@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.6
-- Generated date: Tue, 26 Jul 2022 13:58:28 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.7
+- Generated date: Wed, 03 Aug 2022 02:44:04 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -31,9 +31,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > DedicatedWorkerGlobalScope > cancelAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
 | [api > DedicatedWorkerGlobalScope > messageerror_event](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > DedicatedWorkerGlobalScope > requestAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
-| [api > DeviceMotionEvent](https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
-| [api > DeviceMotionEventAcceleration](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
-| [api > DeviceMotionEventRotationRate](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
+| [api > DeviceMotionEvent](https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
+| [api > DeviceMotionEventAcceleration](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
+| [api > DeviceMotionEventRotationRate](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
 | [api > DeviceOrientationEvent](https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
 | [api > Document > adoptedStyleSheets](https://developer.mozilla.org/docs/Web/API/Document/adoptedStyleSheets) | None | 73 | 73 | 79 | 101 | 101 | 73 |
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
@@ -55,6 +55,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > EventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_touch | None | 55 | 55 | 79 | 61 | 61 | 55 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_wheel | None | 73 | 73 | 79 | 84 | 84 | 73 |
+| api > FetchEvent > respondWith > networkerror_on_same-origin_cors | None | 66 | 66 | 79 | 59 | 59 | 66 |
 | [api > FontFace > ascentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/ascentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > descentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/descentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > lineGapOverride](https://developer.mozilla.org/docs/Web/API/FontFace/lineGapOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
@@ -125,6 +126,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > SVGFESpecularLightingElement > kernelUnitLengthY | None | 45 | 45 | 12 | 3 | 4 | 45 |
 | [api > SVGImageElement > decode](https://developer.mozilla.org/docs/Web/API/SVGImageElement/decode) | None | 64 | 64 | 79 | 68 | 68 | 64 |
 | [api > SVGImageElement > decoding](https://developer.mozilla.org/docs/Web/API/SVGImageElement/decoding) | None | 65 | 65 | 79 | 63 | 63 | 65 |
+| [api > SVGStyleElement > disabled](https://developer.mozilla.org/docs/Web/API/SVGStyleElement/disabled) | None | 102 | 102 | 102 | 104 | 104 | 102 |
 | [api > Screen > orientation](https://developer.mozilla.org/docs/Web/API/Screen/orientation) | None | 38 | 39 | 79 | 43 | 43 | 39 |
 | [api > ScreenOrientation](https://developer.mozilla.org/docs/Web/API/ScreenOrientation) | None | 38 | 38 | 79 | 43 | 43 | 38 |
 | api > SecurityPolicyViolationEvent > worker_support | None | 56 | 56 | 15 | 63 | 63 | 56 |
@@ -146,12 +148,15 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WEBGL_compressed_texture_astc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_astc) | None | 47 | 47 | 79 | 53 | 53 | 47 |
 | [api > WEBGL_compressed_texture_etc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc) | 📱 | 63 | 63 | 79 | 51 | 51 | 63 |
 | [api > WEBGL_compressed_texture_etc1](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc1) | None | 49 | 49 | 79 | 30 | 30 | 49 |
-| api > WebGL2RenderingContext > bufferSubData > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > blendFuncSeparate > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferfv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferuiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > compressedTexImage2D > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > compressedTexImage3D > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > compressedTexSubImage2D > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > getBufferSubData > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > readPixels > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > texImage3D > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > texSubImage3D > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > uniformMatrix2fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
@@ -163,55 +168,24 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > WebGL2RenderingContext > uniformMatrix4fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > uniformMatrix4x2fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > uniformMatrix4x3fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > vertexAttrib1fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > vertexAttrib2fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > vertexAttrib3fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > vertexAttrib4fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > vertexAttribI4iv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > vertexAttribI4uiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | [api > WebGLQuery](https://developer.mozilla.org/docs/Web/API/WebGLQuery) | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > bindBuffer > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > bindFramebuffer > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > bindTexture > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > blendEquation > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > blendEquationSeparate > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | api > WebGLRenderingContext > blendFuncSeparate > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| api > WebGLRenderingContext > bufferData > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > bufferSubData > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > checkFramebufferStatus > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | api > WebGLRenderingContext > compressedTexImage2D > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| api > WebGLRenderingContext > compressedTexImage2D > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > compressedTexSubImage2D > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > framebufferRenderbuffer > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > framebufferTexture2D > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > generateMipmap > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getBufferParameter > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getFramebufferAttachmentParameter > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getProgramParameter > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getRenderbufferParameter > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getTexParameter > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getUniform > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > getVertexAttrib > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > isEnabled > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > pixelStorei > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > readPixels > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > renderbufferStorage > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > texImage2D > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > texParameterf > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > texParameteri > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > texSubImage2D > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > uniformMatrix2fv > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > uniformMatrix3fv > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > uniformMatrix4fv > WebGL2 | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| api > WebGLRenderingContext > vertexAttrib1fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| api > WebGLRenderingContext > vertexAttrib2fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| api > WebGLRenderingContext > vertexAttrib3fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| api > WebGLRenderingContext > vertexAttrib4fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | 25 | 4.4 |
-| api > WheelEvent > pinch_to_zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | ≤37 |
+| api > WheelEvent > pinch_to_zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | 4.4.3 |
 | [api > Window > cancelIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
-| [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | 31 | 31 | 12 | 6 | 6 | ≤37 |
+| [api > Window > devicemotion_event](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
 | [api > Window > deviceorientation_event](https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
-| [api > Window > gamepadconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepadconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
-| [api > Window > gamepaddisconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepaddisconnected_event) | 💻 | 35 | 37 | ≤18 | 29 | 32 | 37 |
+| [api > Window > gamepadconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepadconnected_event) | 💻 | 35 | 37 | ≤18 | 89 | 89 | 37 |
+| [api > Window > gamepaddisconnected_event](https://developer.mozilla.org/docs/Web/API/Window/gamepaddisconnected_event) | 💻 | 35 | 37 | ≤18 | 89 | 89 | 37 |
 | [api > Window > messageerror_event](https://developer.mozilla.org/docs/Web/API/Window/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > Window > open > features_parameter_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
 | api > Window > open > once_per_event | None | 23 | 25 | 12 | 65 | 65 | 4.4 |
@@ -260,7 +234,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > gap > multicol_context | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
-| [css > properties > offset-path](https://developer.mozilla.org/docs/Web/CSS/offset-path) | None | 55 | 55 | 79 | 72 | 79 | 55 |
+| css > properties > offset-path > path-support | None | 64 | 64 | 79 | 72 | 79 | 64 |
 | css > properties > overflow > multiple_keywords | None | 68 | 68 | 79 | 61 | 61 | 68 |
 | css > properties > overflow-wrap > anywhere | None | 80 | 80 | 80 | 65 | 65 | 80 |
 | css > properties > rotate > x_y_z_angle | None | 104 | 104 | 104 | 72 | 79 | 104 |
@@ -298,16 +272,13 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | html > global_attributes > nonce > nonce_hiding | None | 61 | 61 | 79 | 75 | 79 | 61 |
 | [html > manifest > background_color](https://developer.mozilla.org/docs/Web/Manifest/background_color) | 💻 | ❓ | 46 | 79 | ❓ | ❓ | 46 |
 | [html > manifest > categories](https://developer.mozilla.org/docs/Web/Manifest/categories) | 💻 | ❓ | 88 | 88 | ❓ | ❓ | ❓ |
-| [html > manifest > dir](https://developer.mozilla.org/docs/Web/Manifest/dir) | 💻 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [html > manifest > orientation](https://developer.mozilla.org/docs/Web/Manifest/orientation) | 💻 | 39 | 39 | 79 | ❓ | ❓ | ❓ |
 | [html > manifest > related_applications](https://developer.mozilla.org/docs/Web/Manifest/related_applications) | 💻 | ❓ | 44 | 79 | ❓ | ❓ | ❓ |
 | [html > manifest > screenshots](https://developer.mozilla.org/docs/Web/Manifest/screenshots) | 💻 | ❓ | 88 | 88 | ❓ | ❓ | ❓ |
-| http > headers > Accept-CH > Device-Memory | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
 | http > headers > Cache-Control > stale-while-revalidate | None | 75 | 75 | 79 | 68 | 68 | 75 |
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
-| [http > headers > Device-Memory](https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory) | None | 61 | 61 | ≤79 | ❓ | ❓ | 61 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
@@ -318,6 +289,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | javascript > builtins > DataView > buffer > sharedarraybuffer_support | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | [javascript > builtins > Error > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | [javascript > builtins > EvalError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
+| javascript > builtins > Function > toString > toString_revision | None | 66 | 66 | 79 | 54 | 54 | 66 |
 | [javascript > builtins > RangeError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | [javascript > builtins > ReferenceError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | javascript > builtins > RegExp > lookbehind_assertion | None | 62 | 62 | 79 | 78 | 79 | 62 |
