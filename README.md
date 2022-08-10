@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.7
-- Generated date: Wed, 03 Aug 2022 02:44:04 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.8
+- Generated date: Wed, 10 Aug 2022 00:57:21 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -111,7 +111,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > PointerEvent > getPredictedEvents | None | 77 | 77 | 79 | 89 | 89 | 77 |
 | api > RTCDataChannel > sctp_sdp_21 | None | 58 | 58 | 79 | 63 | 63 | 58 |
 | api > RTCPeerConnection > setRemoteDescription > implicit_rollback | 💻 | 80 | 80 | 80 | 70 | 79 | 80 |
-| [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 22 | 44 | 4.4 |
+| [api > RTCPeerConnection > signalingstatechange_event](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/signalingstatechange_event) | 💻 | 28 | 28 | 15 | 36 | 36 | 4.4 |
 | [api > ReadableByteStreamController](https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController) | None | 89 | 89 | 89 | 102 | 102 | 89 |
 | [api > ReadableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
 | [api > ReadableStreamBYOBReader](https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader) | None | 89 | 89 | 89 | 102 | 102 | 89 |
@@ -149,6 +149,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WEBGL_compressed_texture_etc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc) | 📱 | 63 | 63 | 79 | 51 | 51 | 63 |
 | [api > WEBGL_compressed_texture_etc1](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc1) | None | 49 | 49 | 79 | 30 | 30 | 49 |
 | api > WebGL2RenderingContext > blendFuncSeparate > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
+| api > WebGL2RenderingContext > bufferSubData > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferfv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > clearBufferuiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
@@ -177,6 +178,10 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > WebGLQuery](https://developer.mozilla.org/docs/Web/API/WebGLQuery) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | api > WebGLRenderingContext > blendFuncSeparate > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > compressedTexImage2D > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
+| api > WebGLRenderingContext > vertexAttrib1fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
+| api > WebGLRenderingContext > vertexAttrib2fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
+| api > WebGLRenderingContext > vertexAttrib3fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
+| api > WebGLRenderingContext > vertexAttrib4fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | None | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | 25 | 4.4 |
