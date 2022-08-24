@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.9
-- Generated date: Tue, 16 Aug 2022 15:04:26 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.10
+- Generated date: Wed, 24 Aug 2022 01:12:48 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -63,6 +63,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > FontFace > variationSettings](https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | [api > GamepadHapticActuator](https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator) | None | 68 | 68 | 15 | 55 | 55 | 68 |
 | api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
+| api > HTMLCanvasElement > getContext > 2d_context > options_willReadFrequently_parameter | None | 99 | 99 | 99 | 28 | 28 | 99 |
 | api > HTMLCanvasElement > getContext > bitmaprenderer_context | None | 56 | 56 | 79 | 46 | 46 | 56 |
 | api > HTMLCanvasElement > getContext > webgl2_context > options_alpha_parameter | None | 56 | 56 | 79 | 30 | 30 | 56 |
 | api > HTMLCanvasElement > getContext > webgl2_context > options_failIfMajorPerformanceCaveat_parameter | None | 56 | 56 | 79 | 41 | 41 | 56 |
@@ -70,6 +71,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLCanvasElement > getContext > webgl_context > options_failIfMajorPerformanceCaveat_parameter | None | 33 | 33 | 12 | 41 | 41 | 37 |
 | api > HTMLCanvasElement > toBlob > type_parameter_webp | None | 50 | 50 | 79 | 96 | 96 | 50 |
 | api > HTMLCanvasElement > toDataURL > type_parameter_webp | None | 17 | 18 | 79 | 96 | 96 | ≤37 |
+| [api > HTMLCanvasElement > transferControlToOffscreen](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen) | None | 69 | 69 | 79 | preview | preview | 69 |
 | [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
 | api > HTMLInputElement > showPicker > color_input | None | 99 | 99 | 99 | 101 | 101 | 99 |
 | api > HTMLInputElement > showPicker > date_input | None | 99 | 99 | 99 | 101 | 101 | 99 |
@@ -99,6 +101,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Node > selectstart_event](https://developer.mozilla.org/docs/Web/API/Node/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 4.4 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
+| [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | preview | preview | 69 |
 | api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
 | [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
@@ -253,12 +256,10 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > selectors > fullscreen](https://developer.mozilla.org/docs/Web/CSS/:fullscreen) | 💻 | 71 | 71 | 12 | 64 | 64 | 71 |
 | css > selectors > indeterminate > radio | None | 39 | 39 | 79 | 51 | 51 | 39 |
 | css > selectors > last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
-| css > selectors > link > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 1.5 |
 | css > selectors > nth-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > nth-last-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | css > selectors > only-child > no_parent_required | None | 57 | 57 | 79 | 52 | 52 | 57 |
 | [css > selectors > selection](https://developer.mozilla.org/docs/Web/CSS/::selection) | 💻 | 1 | 18 | 12 | 62 | 62 | 37 |
-| css > selectors > visited > not_match_link | None | 1 | 18 | 12 | 87 | 87 | 4.4 |
 | [css > types > basic-shape > path](https://developer.mozilla.org/docs/Web/CSS/path) | None | 46 | 46 | 79 | 97 | 97 | 46 |
 | css > types > image > gradient > radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | 4.4 |
 | css > types > image > gradient > repeating-radial-gradient > at | None | 26 | 26 | 12 | 16 | 16 | 4.4 |
