@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.10
-- Generated date: Wed, 24 Aug 2022 01:12:48 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.0
+- Generated date: Tue, 30 Aug 2022 22:48:40 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -26,7 +26,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > CanvasRenderingContext2D > drawImage > ImageBitmap_source_image | None | 30 | 30 | 79 | 42 | 42 | ≤37 |
 | api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 79 | 56 | 56 | 59 |
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
+| [api > CanvasRenderingContext2D > fontKerning](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontKerning) | None | 99 | 99 | 99 | 104 | 104 | 99 |
 | api > CustomElementRegistry > builtin_element_support | None | 67 | 67 | 79 | 63 | 63 | 67 |
+| api > CustomElementRegistry > define > disabledFeatures_static_property | None | 77 | 77 | 79 | 92 | 92 | 77 |
 | api > DOMException > serializable_object | None | 77 | 77 | 79 | 101 | 101 | 77 |
 | api > DedicatedWorkerGlobalScope > cancelAnimationFrame | None | 69 | 69 | 79 | 97 | 97 | 67 |
 | [api > DedicatedWorkerGlobalScope > messageerror_event](https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
@@ -121,7 +123,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > ReadableStreamBYOBRequest](https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBRequest) | None | 89 | 89 | 89 | 102 | 102 | 89 |
 | [api > ReadableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController) | None | 89 | 89 | 89 | 65 | 65 | 89 |
 | [api > ReadableStreamDefaultReader](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader) | None | 78 | 78 | 79 | 65 | 65 | 78 |
-| api > Request > Request > reponse_body_readablestream | 📱 | 43 | 43 | ≤79 | 65 | 65 | 43 |
+| api > Request > Request > response_body_readablestream | 📱 | 43 | 43 | ≤79 | 65 | 65 | 43 |
 | api > ResizeObserverEntry > devicePixelContentBoxSize | None | 84 | 84 | 84 | 93 | 93 | 84 |
 | api > Response > Response > body_parameter_optional | None | 40 | 40 | ≤79 | 59 | 59 | 40 |
 | api > SVGElement > focus > options_preventScroll_parameter | None | 78 | 78 | ≤79 | 68 | 68 | 78 |
@@ -206,7 +208,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | [api > WritableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
 | [api > WritableStreamDefaultController > signal](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/signal) | None | 98 | 98 | 98 | 100 | 100 | 98 |
-| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 59 | 59 | 16 | 100 | 100 | 59 |
+| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 78 | 78 | 16 | 100 | 100 | 78 |
 | api > createImageBitmap > options_colorSpaceConversion_parameter | None | 58 | 58 | 79 | 98 | 98 | 58 |
 | api > createImageBitmap > options_imageOrientation_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
 | api > createImageBitmap > options_premultiplyAlpha_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
