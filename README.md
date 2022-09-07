@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.0
-- Generated date: Tue, 30 Aug 2022 22:48:40 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.1
+- Generated date: Wed, 07 Sep 2022 10:20:59 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -208,7 +208,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | [api > WritableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
 | [api > WritableStreamDefaultController > signal](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/signal) | None | 98 | 98 | 98 | 100 | 100 | 98 |
-| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 78 | 78 | 16 | 100 | 100 | 78 |
+| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 78 | 78 | 79 | 100 | 100 | 78 |
 | api > createImageBitmap > options_colorSpaceConversion_parameter | None | 58 | 58 | 79 | 98 | 98 | 58 |
 | api > createImageBitmap > options_imageOrientation_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
 | api > createImageBitmap > options_premultiplyAlpha_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
@@ -305,4 +305,4 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [javascript > builtins > TypeError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | [javascript > builtins > URIError > serializable_object](https://developer.mozilla.org/docs/Glossary/Serializable_object) | None | 77 | 77 | 79 | 103 | 103 | 77 |
 | [javascript > classes > static_initialization_blocks](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks) | None | 94 | 94 | 94 | 93 | 93 | 94 |
-| [svg > elements > path > d > path](https://developer.mozilla.org/docs/Web/CSS/path()) | None | 52 | 52 | 79 | 97 | 97 | 52 |
+| [svg > elements > path > d > path](https://developer.mozilla.org/docs/Web/CSS/path) | None | 52 | 52 | 79 | 97 | 97 | 52 |
