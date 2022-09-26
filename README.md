@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.1
-- Generated date: Wed, 07 Sep 2022 10:20:59 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.3
+- Generated date: Mon, 26 Sep 2022 09:02:08 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -42,6 +42,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
 | [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
+| [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
+| [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 4.4 |
@@ -205,7 +207,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
-| [api > Worklet > addModule](https://developer.mozilla.org/docs/Web/API/Worklet/addModule) | None | 65 | 65 | 79 | 76 | 79 | 65 |
 | [api > WritableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
 | [api > WritableStreamDefaultController > signal](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/signal) | None | 98 | 98 | 98 | 100 | 100 | 98 |
 | [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 78 | 78 | 79 | 100 | 100 | 78 |
@@ -287,6 +288,10 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
+| [http > headers > Content-Security-Policy > script-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-attr) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
+| [http > headers > Content-Security-Policy > script-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
+| [http > headers > Content-Security-Policy > style-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
+| [http > headers > Content-Security-Policy > style-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
