@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.3
-- Generated date: Mon, 26 Sep 2022 09:02:08 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.4
+- Generated date: Wed, 28 Sep 2022 01:09:21 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -247,6 +247,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
 | css > properties > offset-path > path-support | None | 64 | 64 | 79 | 72 | 79 | 64 |
 | css > properties > overflow > multiple_keywords | None | 68 | 68 | 79 | 61 | 61 | 68 |
+| [css > properties > overflow-clip-margin](https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin) | None | 90 | 90 | 90 | 102 | 102 | 90 |
 | css > properties > overflow-wrap > anywhere | None | 80 | 80 | 80 | 65 | 65 | 80 |
 | css > properties > rotate > x_y_z_angle | None | 104 | 104 | 104 | 72 | 79 | 104 |
 | [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
