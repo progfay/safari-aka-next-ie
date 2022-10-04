@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.4
-- Generated date: Wed, 28 Sep 2022 01:09:21 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.5
+- Generated date: Tue, 04 Oct 2022 14:48:02 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -65,6 +65,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > FontFace > lineGapOverride](https://developer.mozilla.org/docs/Web/API/FontFace/lineGapOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > variant](https://developer.mozilla.org/docs/Web/API/FontFace/variant) | None | 35 | 35 | 79 | 41 | 41 | 37 |
 | [api > FontFace > variationSettings](https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
+| api > FontFace > worker_support | None | 69 | 69 | 79 | 105 | 105 | 69 |
+| api > FontFaceSet > worker_support | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | [api > GamepadHapticActuator](https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator) | None | 68 | 68 | 15 | 55 | 55 | 68 |
 | api > HTMLCanvasElement > getContext > 2d_context > options_alpha_parameter | None | 32 | 32 | ≤79 | 30 | 30 | 4.4.3 |
 | api > HTMLCanvasElement > getContext > 2d_context > options_willReadFrequently_parameter | None | 99 | 99 | 99 | 28 | 28 | 99 |
@@ -75,7 +77,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLCanvasElement > getContext > webgl_context > options_failIfMajorPerformanceCaveat_parameter | None | 33 | 33 | 12 | 41 | 41 | 37 |
 | api > HTMLCanvasElement > toBlob > type_parameter_webp | None | 50 | 50 | 79 | 96 | 96 | 50 |
 | api > HTMLCanvasElement > toDataURL > type_parameter_webp | None | 17 | 18 | 79 | 96 | 96 | ≤37 |
-| [api > HTMLCanvasElement > transferControlToOffscreen](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen) | None | 69 | 69 | 79 | preview | preview | 69 |
+| [api > HTMLCanvasElement > transferControlToOffscreen](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen) | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | [api > HTMLElement > attachInternals](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
 | api > HTMLInputElement > showPicker > color_input | None | 99 | 99 | 99 | 101 | 101 | 99 |
 | api > HTMLInputElement > showPicker > date_input | None | 99 | 99 | 99 | 101 | 101 | 99 |
@@ -105,7 +107,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Node > selectstart_event](https://developer.mozilla.org/docs/Web/API/Node/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 4.4 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
-| [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | preview | preview | 69 |
+| [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 105 | 105 | 69 |
+| [api > OffscreenCanvasRenderingContext2D](https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D) | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
 | [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
@@ -205,6 +208,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Window > scrollX > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
 | api > Window > scrollY > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
 | [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
+| [api > WorkerGlobalScope > fonts](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/fonts) | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | [api > WritableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
