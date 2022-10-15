@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.6
-- Generated date: Tue, 11 Oct 2022 13:34:42 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.7
+- Generated date: Sat, 15 Oct 2022 05:48:18 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -56,7 +56,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Element > touchstart_event](https://developer.mozilla.org/docs/Web/API/Element/touchstart_event) | 📱 | 22 | 25 | 12 | 52 | 6 | 4.4 |
 | [api > Element > wheel_event](https://developer.mozilla.org/docs/Web/API/Element/wheel_event) | 💻 | 31 | 31 | 12 | 17 | 17 | 4.4.3 |
 | [api > ElementInternals](https://developer.mozilla.org/docs/Web/API/ElementInternals) | None | 77 | 77 | 79 | 93 | 93 | 77 |
-| api > EventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
+| [api > EventCounts](https://developer.mozilla.org/docs/Web/API/EventCounts) | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_touch | None | 55 | 55 | 79 | 61 | 61 | 55 |
 | api > EventTarget > addEventListener > options_parameter > options_passive_parameter_default_true_wheel | None | 73 | 73 | 79 | 84 | 84 | 73 |
 | api > FetchEvent > respondWith > networkerror_on_same-origin_cors | None | 66 | 66 | 79 | 59 | 59 | 66 |
@@ -106,10 +106,10 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | None | 94 | 94 | 94 | 99 | 99 | 94 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Node > selectstart_event](https://developer.mozilla.org/docs/Web/API/Node/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 4.4 |
-| [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 75 | 75 | 79 | 71 | 79 | 75 |
+| [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 93 | 93 | 93 | 71 | 79 | 93 |
 | [api > OffscreenCanvas](https://developer.mozilla.org/docs/Web/API/OffscreenCanvas) | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | [api > OffscreenCanvasRenderingContext2D](https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D) | None | 69 | 69 | 79 | 105 | 105 | 69 |
-| api > Performance > eventCounts | None | 85 | 85 | 85 | 89 | 89 | 85 |
+| [api > Performance > eventCounts](https://developer.mozilla.org/docs/Web/API/Performance/eventCounts) | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
 | [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
 | [api > PerformanceResourceTiming > encodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
