@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.10
-- Generated date: Wed, 26 Oct 2022 11:21:04 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.11
+- Generated date: Sat, 29 Oct 2022 12:56:47 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -44,6 +44,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
 | [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
+| [api > EXT_float_blend](https://developer.mozilla.org/docs/Web/API/EXT_float_blend) | 💻 | 75 | 75 | 79 | 67 | 67 | 75 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 4.4 |
