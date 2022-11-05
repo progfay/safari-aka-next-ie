@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.12
-- Generated date: Tue, 01 Nov 2022 14:30:40 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.13
+- Generated date: Sat, 05 Nov 2022 16:14:49 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -65,7 +65,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > FontFace > descentOverride](https://developer.mozilla.org/docs/Web/API/FontFace/descentOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > lineGapOverride](https://developer.mozilla.org/docs/Web/API/FontFace/lineGapOverride) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [api > FontFace > variant](https://developer.mozilla.org/docs/Web/API/FontFace/variant) | None | 35 | 35 | 79 | 41 | 41 | 37 |
-| [api > FontFace > variationSettings](https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings) | None | 62 | 62 | 79 | 62 | 62 | 62 |
 | api > FontFace > worker_support | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | api > FontFaceSet > worker_support | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | [api > GamepadHapticActuator](https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator) | None | 68 | 68 | 15 | 55 | 55 | 68 |
@@ -241,6 +240,11 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | css > properties > clip-path > animations | None | 55 | 55 | 79 | 49 | 49 | 55 |
 | css > properties > column-gap > multicol_context > calc_values | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > column-gap > multicol_context > percentage_values | None | 66 | 66 | 16 | 61 | 61 | 66 |
+| [css > properties > contain-intrinsic-block-size](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-contain-intrinsic-block-size) | None | 95 | 95 | 95 | 107 | 107 | 95 |
+| [css > properties > contain-intrinsic-height](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height) | None | 83 | 83 | 83 | 107 | 107 | 83 |
+| [css > properties > contain-intrinsic-inline-size](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-contain-intrinsic-inline-size) | None | 95 | 95 | 95 | 107 | 107 | 95 |
+| [css > properties > contain-intrinsic-size](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size) | None | 83 | 83 | 83 | 107 | 107 | 83 |
+| [css > properties > contain-intrinsic-width](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width) | None | 83 | 83 | 83 | 107 | 107 | 83 |
 | [css > properties > counter-set](https://developer.mozilla.org/docs/Web/CSS/counter-set) | None | 85 | 85 | 85 | 68 | 68 | 85 |
 | css > properties > display > contents > contents_unusual | None | 65 | 65 | 79 | 59 | 59 | 65 |
 | css > properties > display > list-item > legend-support | None | 71 | 71 | 79 | 64 | 64 | 71 |
