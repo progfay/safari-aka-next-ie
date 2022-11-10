@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.13
-- Generated date: Sat, 05 Nov 2022 16:14:49 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.14
+- Generated date: Thu, 10 Nov 2022 08:48:24 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -297,10 +297,6 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
-| [http > headers > Content-Security-Policy > script-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-attr) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
-| [http > headers > Content-Security-Policy > script-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
-| [http > headers > Content-Security-Policy > style-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
-| [http > headers > Content-Security-Policy > style-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem) | 💻 | 75 | 75 | 79 | preview | preview | 75 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
