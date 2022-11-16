@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.15
-- Generated date: Fri, 11 Nov 2022 14:41:51 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.16
+- Generated date: Wed, 16 Nov 2022 14:58:24 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -222,7 +222,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > createImageBitmap > worker_support | None | 50 | 50 | 79 | 42 | 42 | 50 |
 | api > crossOriginIsolated > worker_support | None | 87 | 87 | 87 | 72 | 79 | 87 |
 | api > fetch > init_referrerPolicy_parameter | 💻 | 52 | 52 | 79 | 52 | 52 | 52 |
-| api > reportError > worker_support | 💻 | 95 | 95 | 95 | 93 | 93 | 95 |
+| api > reportError > worker_support | None | 95 | 95 | 95 | 93 | 93 | 95 |
 | [css > at-rules > counter-style](https://developer.mozilla.org/docs/Web/CSS/@counter-style) | None | 91 | 91 | 91 | 33 | 33 | 91 |
 | [css > at-rules > font-face > ascent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
 | [css > at-rules > font-face > descent-override](https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override) | None | 87 | 87 | 87 | 89 | 89 | 87 |
@@ -248,7 +248,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > properties > counter-set](https://developer.mozilla.org/docs/Web/CSS/counter-set) | None | 85 | 85 | 85 | 68 | 68 | 85 |
 | css > properties > display > contents > contents_unusual | None | 65 | 65 | 79 | 59 | 59 | 65 |
 | css > properties > display > list-item > legend-support | None | 71 | 71 | 79 | 64 | 64 | 71 |
-| css > properties > flex-basis > content | 💻 | 94 | 94 | 94 | 61 | 61 | 94 |
+| css > properties > flex-basis > content | None | 94 | 94 | 94 | 61 | 61 | 94 |
 | css > properties > flex-grow > less_than_zero_animate | None | 49 | 49 | 79 | 32 | 32 | 49 |
 | css > properties > gap > multicol_context | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
