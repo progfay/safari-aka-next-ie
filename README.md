@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.17
-- Generated date: Sun, 20 Nov 2022 05:10:49 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.19
+- Generated date: Mon, 28 Nov 2022 15:17:46 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -24,7 +24,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > CSSStyleSheet > replace](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replace) | None | 73 | 73 | 79 | 101 | 101 | 73 |
 | [api > CSSStyleSheet > replaceSync](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replaceSync) | None | 73 | 73 | 79 | 101 | 101 | 73 |
 | api > CanvasRenderingContext2D > drawImage > ImageBitmap_source_image | None | 30 | 30 | 79 | 42 | 42 | ≤37 |
-| api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 79 | 56 | 56 | 59 |
+| api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 12 | 56 | 56 | 59 |
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
 | [api > CanvasRenderingContext2D > fontKerning](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontKerning) | None | 99 | 99 | 99 | 104 | 104 | 99 |
 | api > CustomElementRegistry > builtin_element_support | None | 67 | 67 | 79 | 63 | 63 | 67 |
@@ -41,7 +41,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
-| [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 12 | 50 | 50 | 37 |
+| [api > Document > pointerLockElement](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) | 💻 | 37 | 37 | 13 | 50 | 50 | 37 |
 | [api > Document > pointerlockchange_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > Document > pointerlockerror_event](https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event) | 💻 | 36 | 36 | 13 | 50 | 50 | 37 |
 | [api > EXT_float_blend](https://developer.mozilla.org/docs/Web/API/EXT_float_blend) | 💻 | 75 | 75 | 79 | 67 | 67 | 75 |
@@ -284,6 +284,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | html > elements > link > imagesrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | html > elements > link > rel > icon | 💻 | 4 | 18 | 12 | 2 | 4 | 38 |
 | [html > elements > link > rel > prefetch](https://developer.mozilla.org/docs/Web/HTML/Link_types/prefetch) | None | 8 | 18 | 12 | 2 | 4 | 4.4 |
+| html > elements > script > type > importmap | None | 89 | 89 | 89 | 108 | 108 | 89 |
 | html > elements > textarea > placeholder > line_breaks | None | 36 | 36 | 12 | 59 | 59 | 37 |
 | [html > global_attributes > inputmode](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/inputmode) | 📱 | 66 | 66 | 79 | 95 | 79 | 66 |
 | [html > global_attributes > is](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/is) | None | 67 | 67 | 79 | 63 | 63 | 67 |
@@ -297,8 +298,15 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [http > headers > Clear-Site-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data) | None | 61 | 61 | ≤79 | 63 | 63 | 61 |
 | http > headers > Content-Encoding > br | 💻 | 50 | 51 | 15 | 44 | 44 | 51 |
 | [http > headers > Content-Security-Policy > manifest-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src) | None | Yes | Yes | 79 | 41 | 41 | Yes |
+| [http > headers > Content-Security-Policy > script-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-attr) | None | 75 | 75 | 79 | 108 | 108 | 75 |
+| [http > headers > Content-Security-Policy > script-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem) | None | 75 | 75 | 79 | 108 | 108 | 75 |
+| [http > headers > Content-Security-Policy > style-src-attr](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr) | None | 75 | 75 | 79 | 108 | 108 | 75 |
+| [http > headers > Content-Security-Policy > style-src-elem](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem) | None | 75 | 75 | 79 | 108 | 108 | 75 |
 | [http > headers > Feature-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) | None | 62 | 62 | 79 | 74 | 79 | 62 |
 | [http > headers > Feature-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) | None | 60 | 60 | 79 | 74 | 79 | 60 |
+| [http > headers > Permissions-Policy > fullscreen](https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/fullscreen) | None | 88 | 88 | 88 | 74 | 79 | 88 |
+| [http > headers > Permissions-Policy > geolocation](https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/geolocation) | None | 88 | 88 | 88 | 74 | 79 | 88 |
+| [http > headers > Permissions-Policy > web-share](https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/web-share) | None | 88 | 88 | 88 | 81 | 81 | 88 |
 | [http > headers > Save-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data) | None | 49 | 49 | ≤79 | ❓ | ❓ | 49 |
 | [http > headers > Sec-Fetch-Dest](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Dest) | None | 80 | 80 | 80 | 90 | 90 | 80 |
 | [http > headers > Sec-Fetch-Mode](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode) | None | 76 | 76 | 79 | 90 | 90 | 76 |
