@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.19
-- Generated date: Mon, 28 Nov 2022 15:17:46 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.20
+- Generated date: Thu, 01 Dec 2022 15:05:29 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -47,6 +47,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > EXT_float_blend](https://developer.mozilla.org/docs/Web/API/EXT_float_blend) | 💻 | 75 | 75 | 79 | 67 | 67 | 75 |
 | api > Element > animate > options_id_parameter | None | 50 | 50 | 79 | 48 | 48 | 50 |
 | [api > Element > auxclick_event](https://developer.mozilla.org/docs/Web/API/Element/auxclick_event) | None | 55 | 55 | 79 | 53 | 53 | 55 |
+| api > Element > checkVisibility | None | 105 | 105 | 105 | 106 | 106 | 105 |
 | [api > Element > contextmenu_event](https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event) | 💻 | 1 | 18 | 12 | 6 | 6 | 4.4 |
 | api > Element > requestFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
 | [api > Element > requestPointerLock](https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock) | 💻 | 37 | 37 | 13 | 50 | 50 | 37 |
