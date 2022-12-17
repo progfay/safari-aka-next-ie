@@ -11,8 +11,8 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.20
-- Generated date: Thu, 01 Dec 2022 15:05:29 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.22
+- Generated date: Sat, 17 Dec 2022 02:07:56 GMT
 
 | Feature | Safari Support | chrome | chrome_android | edge | firefox | firefox_android | webview_android |
 | :------ | :------------: |  :-: | :-: | :-: | :-: | :-: | :-: |
@@ -20,9 +20,9 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > AudioContext > outputLatency](https://developer.mozilla.org/docs/Web/API/AudioContext/outputLatency) | None | 102 | 102 | 102 | 70 | 79 | 102 |
 | api > BarProp > visible > returns_popup | None | 98 | 98 | 98 | 96 | 96 | 98 |
 | [api > CSSCounterStyleRule](https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule) | None | 91 | 91 | 91 | 33 | 33 | 91 |
-| [api > CSSStyleSheet > CSSStyleSheet](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/CSSStyleSheet) | None | 73 | 73 | 79 | 101 | 101 | 73 |
-| [api > CSSStyleSheet > replace](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replace) | None | 73 | 73 | 79 | 101 | 101 | 73 |
-| [api > CSSStyleSheet > replaceSync](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replaceSync) | None | 73 | 73 | 79 | 101 | 101 | 73 |
+| [api > CSSStyleSheet > CSSStyleSheet](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/CSSStyleSheet) | 💻 | 73 | 73 | 79 | 101 | 101 | 73 |
+| [api > CSSStyleSheet > replace](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replace) | 💻 | 73 | 73 | 79 | 101 | 101 | 73 |
+| [api > CSSStyleSheet > replaceSync](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/replaceSync) | 💻 | 73 | 73 | 79 | 101 | 101 | 73 |
 | api > CanvasRenderingContext2D > drawImage > ImageBitmap_source_image | None | 30 | 30 | 79 | 42 | 42 | ≤37 |
 | api > CanvasRenderingContext2D > drawImage > SVGImageElement_source_image | None | 59 | 59 | 12 | 56 | 56 | 59 |
 | [api > CanvasRenderingContext2D > filter](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter) | None | 52 | 52 | 79 | 49 | 49 | 52 |
@@ -37,7 +37,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > DeviceMotionEventAcceleration](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
 | [api > DeviceMotionEventRotationRate](https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate) | 📱 | 31 | 31 | 12 | 6 | 6 | 4.4.3 |
 | [api > DeviceOrientationEvent](https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent) | 📱 | 7 | 18 | 12 | 6 | 6 | 3 |
-| [api > Document > adoptedStyleSheets](https://developer.mozilla.org/docs/Web/API/Document/adoptedStyleSheets) | None | 73 | 73 | 79 | 101 | 101 | 73 |
+| [api > Document > adoptedStyleSheets](https://developer.mozilla.org/docs/Web/API/Document/adoptedStyleSheets) | 💻 | 73 | 73 | 79 | 101 | 101 | 73 |
 | api > Document > createElement > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > createElementNS > options_parameter | None | 56 | 56 | 79 | 50 | 50 | 56 |
 | api > Document > exitFullscreen > returns_promise | None | 69 | 69 | 79 | 64 | 64 | 69 |
@@ -87,12 +87,12 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > HTMLLinkElement > imageSizes | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | api > HTMLLinkElement > imageSrcset | None | 73 | 73 | 79 | 78 | 79 | 73 |
 | [api > HTMLMediaElement > captureStream](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream) | None | 62 | 62 | 79 | 15 | 15 | 62 |
-| [api > HTMLSlotElement > assign](https://developer.mozilla.org/docs/Web/API/HTMLSlotElement/assign) | None | 86 | 86 | 86 | 92 | 92 | 86 |
+| [api > HTMLSlotElement > assign](https://developer.mozilla.org/docs/Web/API/HTMLSlotElement/assign) | 💻 | 86 | 86 | 86 | 92 | 92 | 86 |
 | api > Headers > lexicographical_sorting | None | 57 | 57 | 79 | 44 | 44 | 57 |
 | api > IDBRequest > error > DOMException | None | 48 | 48 | ≤18 | 58 | 58 | 48 |
 | api > IDBTransaction > error > DOMException | None | 48 | 48 | ≤18 | 58 | 58 | 48 |
 | [api > IdleDeadline](https://developer.mozilla.org/docs/Web/API/IdleDeadline) | None | 47 | 47 | 79 | 55 | 55 | 47 |
-| [api > InputEvent > isComposing](https://developer.mozilla.org/docs/Web/API/InputEvent/isComposing) | None | 60 | 60 | 79 | 31 | 31 | 60 |
+| [api > InputEvent > isComposing](https://developer.mozilla.org/docs/Web/API/InputEvent/isComposing) | 💻 | 60 | 60 | 79 | 31 | 31 | 60 |
 | api > KeyboardEvent > getModifierState > fn_parameter | None | 48 | 48 | 79 | 15 | 15 | 48 |
 | api > KeyboardEvent > getModifierState > numlock_parameter | None | 48 | 48 | ≤79 | 15 | 15 | 48 |
 | api > KeyboardEvent > getModifierState > scrolllock_parameter | None | 48 | 48 | 79 | 15 | 15 | 48 |
@@ -104,7 +104,7 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > MediaTrackSupportedConstraints > noiseSuppression](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression) | None | 69 | 69 | ≤79 | 55 | 55 | 69 |
 | [api > MessagePort > messageerror_event](https://developer.mozilla.org/docs/Web/API/MessagePort/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
 | [api > Navigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
-| [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | None | 94 | 94 | 94 | 99 | 99 | 94 |
+| [api > Navigator > pdfViewerEnabled](https://developer.mozilla.org/docs/Web/API/Navigator/pdfViewerEnabled) | 💻 | 94 | 94 | 94 | 99 | 99 | 94 |
 | [api > Navigator > vibrate](https://developer.mozilla.org/docs/Web/API/Navigator/vibrate) | None | 32 | 32 | 79 | 16 | 79 | 4.4.3 |
 | [api > Node > selectstart_event](https://developer.mozilla.org/docs/Web/API/Node/selectstart_event) | 💻 | 1 | 18 | 12 | 52 | 52 | 4.4 |
 | [api > OVR_multiview2](https://developer.mozilla.org/docs/Web/API/OVR_multiview2) | None | 93 | 93 | 93 | 71 | 79 | 93 |
@@ -112,12 +112,12 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > OffscreenCanvasRenderingContext2D](https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D) | None | 69 | 69 | 79 | 105 | 105 | 69 |
 | [api > Performance > eventCounts](https://developer.mozilla.org/docs/Web/API/Performance/eventCounts) | None | 85 | 85 | 85 | 89 | 89 | 85 |
 | [api > PerformanceEventTiming](https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming) | None | 76 | 76 | 79 | 89 | 89 | 76 |
-| [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
-| [api > PerformanceResourceTiming > encodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
-| [api > PerformanceResourceTiming > serverTiming](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming) | None | 65 | 65 | 79 | 61 | 61 | 65 |
-| [api > PerformanceResourceTiming > transferSize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize) | None | 54 | 54 | 17 | 45 | 45 | 54 |
+| [api > PerformanceResourceTiming > decodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize) | 💻 | 54 | 54 | 17 | 45 | 45 | 54 |
+| [api > PerformanceResourceTiming > encodedBodySize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize) | 💻 | 54 | 54 | 17 | 45 | 45 | 54 |
+| [api > PerformanceResourceTiming > serverTiming](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming) | 💻 | 65 | 65 | 79 | 61 | 61 | 65 |
+| [api > PerformanceResourceTiming > transferSize](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize) | 💻 | 54 | 54 | 17 | 45 | 45 | 54 |
 | api > PerformanceResourceTiming > worker_support | 💻 | 43 | 43 | 15 | 60 | 60 | 43 |
-| [api > PerformanceServerTiming](https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming) | None | 65 | 65 | 79 | 61 | 61 | 65 |
+| [api > PerformanceServerTiming](https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming) | 💻 | 65 | 65 | 79 | 61 | 61 | 65 |
 | [api > PointerEvent > getCoalescedEvents](https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents) | None | 58 | 58 | 79 | 59 | 79 | 58 |
 | api > PointerEvent > getPredictedEvents | None | 77 | 77 | 79 | 89 | 89 | 77 |
 | api > RTCDataChannel > sctp_sdp_21 | None | 58 | 58 | 79 | 63 | 63 | 58 |
@@ -137,23 +137,23 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [api > SVGImageElement > decode](https://developer.mozilla.org/docs/Web/API/SVGImageElement/decode) | None | 64 | 64 | 79 | 68 | 68 | 64 |
 | [api > SVGImageElement > decoding](https://developer.mozilla.org/docs/Web/API/SVGImageElement/decoding) | None | 65 | 65 | 79 | 63 | 63 | 65 |
 | [api > SVGStyleElement > disabled](https://developer.mozilla.org/docs/Web/API/SVGStyleElement/disabled) | None | 102 | 102 | 102 | 104 | 104 | 102 |
-| [api > Screen > orientation](https://developer.mozilla.org/docs/Web/API/Screen/orientation) | None | 38 | 39 | 79 | 43 | 43 | 39 |
-| [api > ScreenOrientation](https://developer.mozilla.org/docs/Web/API/ScreenOrientation) | None | 38 | 38 | 79 | 43 | 43 | 38 |
+| [api > Screen > orientation](https://developer.mozilla.org/docs/Web/API/Screen/orientation) | 💻 | 38 | 39 | 79 | 43 | 43 | 39 |
+| [api > ScreenOrientation](https://developer.mozilla.org/docs/Web/API/ScreenOrientation) | 💻 | 38 | 38 | 79 | 43 | 43 | 38 |
 | api > SecurityPolicyViolationEvent > worker_support | None | 56 | 56 | 15 | 63 | 63 | 56 |
 | [api > Selection > removeRange](https://developer.mozilla.org/docs/Web/API/Selection/removeRange) | None | 58 | 58 | 12 | 1 | 4 | 58 |
 | [api > ServiceWorkerGlobalScope > notificationclick_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclick_event) | 💻 | 40 | 40 | 17 | 44 | 44 | 40 |
 | [api > ServiceWorkerGlobalScope > notificationclose_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclose_event) | 💻 | 50 | 50 | 17 | 44 | 44 | 50 |
 | [api > ServiceWorkerGlobalScope > push_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event) | 💻 | 40 | 40 | 17 | 44 | 48 | 40 |
 | [api > ServiceWorkerGlobalScope > sync_event](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/sync_event) | None | 49 | 49 | 79 | 44 | 44 | 49 |
-| [api > ShadowRoot > adoptedStyleSheets](https://developer.mozilla.org/docs/Web/API/ShadowRoot/adoptedStyleSheets) | None | 73 | 73 | 79 | 101 | 101 | 73 |
+| [api > ShadowRoot > adoptedStyleSheets](https://developer.mozilla.org/docs/Web/API/ShadowRoot/adoptedStyleSheets) | 💻 | 73 | 73 | 79 | 101 | 101 | 73 |
 | [api > ShadowRoot > fullscreenElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement) | None | 71 | 71 | 79 | 64 | 64 | 71 |
 | [api > ShadowRoot > pointerLockElement](https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement) | 💻 | 53 | 53 | 79 | 63 | 63 | 53 |
-| api > ShadowRoot > slotAssignment | None | 86 | 86 | 86 | 92 | 92 | 86 |
+| api > ShadowRoot > slotAssignment | 💻 | 86 | 86 | 86 | 92 | 92 | 86 |
 | [api > StorageManager > estimate](https://developer.mozilla.org/docs/Web/API/StorageManager/estimate) | None | 61 | 61 | 79 | 57 | 57 | 61 |
 | [api > Touch](https://developer.mozilla.org/docs/Web/API/Touch) | 📱 | 22 | 25 | ≤18 | 52 | 6 | 4.4 |
 | [api > TouchEvent](https://developer.mozilla.org/docs/Web/API/TouchEvent) | 📱 | 22 | 25 | 79 | 52 | 6 | 4.4 |
 | [api > TransformStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
-| [api > TransitionEvent > TransitionEvent](https://developer.mozilla.org/docs/Web/API/TransitionEvent/TransitionEvent) | None | 27 | 27 | 79 | 23 | 23 | 4.4 |
+| [api > TransitionEvent > TransitionEvent](https://developer.mozilla.org/docs/Web/API/TransitionEvent/TransitionEvent) | 💻 | 27 | 27 | 79 | 23 | 23 | 4.4 |
 | [api > VideoPlaybackQuality](https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality) | 💻 | 23 | 25 | 12 | 42 | 42 | 4.4.3 |
 | [api > WEBGL_compressed_texture_astc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_astc) | None | 47 | 47 | 79 | 53 | 53 | 47 |
 | [api > WEBGL_compressed_texture_etc](https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc) | 📱 | 63 | 63 | 79 | 51 | 51 | 63 |
@@ -185,15 +185,15 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > WebGL2RenderingContext > vertexAttrib4fv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > vertexAttribI4iv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
 | api > WebGL2RenderingContext > vertexAttribI4uiv > SharedArrayBuffer_as_param | None | 60 | 60 | 79 | 79 | 79 | 60 |
-| [api > WebGLQuery](https://developer.mozilla.org/docs/Web/API/WebGLQuery) | None | 56 | 58 | 79 | 51 | 51 | 58 |
+| [api > WebGLQuery](https://developer.mozilla.org/docs/Web/API/WebGLQuery) | 💻 | 56 | 58 | 79 | 51 | 51 | 58 |
 | api > WebGLRenderingContext > blendFuncSeparate > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > compressedTexImage2D > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > vertexAttrib1fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > vertexAttrib2fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > vertexAttrib3fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
 | api > WebGLRenderingContext > vertexAttrib4fv > SharedArrayBuffer_as_param | None | 60 | 60 | ≤79 | 79 | 79 | 60 |
-| [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | None | 56 | 58 | 79 | 51 | 51 | 58 |
-| [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | None | 56 | 58 | 79 | 51 | 51 | 58 |
+| [api > WebGLSampler](https://developer.mozilla.org/docs/Web/API/WebGLSampler) | 💻 | 56 | 58 | 79 | 51 | 51 | 58 |
+| [api > WebGLSync](https://developer.mozilla.org/docs/Web/API/WebGLSync) | 💻 | 56 | 58 | 79 | 51 | 51 | 58 |
 | [api > WebGLVertexArrayObjectOES](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES) | None | 24 | 25 | 17 | 25 | 25 | 4.4 |
 | api > WheelEvent > pinch_to_zoom_support | 💻 | 31 | 31 | 79 | 55 | 55 | 4.4.3 |
 | [api > Window > cancelIdleCallback](https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback) | None | 47 | 47 | 79 | 55 | 55 | 47 |
@@ -208,12 +208,12 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | api > Window > scrollX > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
 | api > Window > scrollY > subpixel_precision | None | 40 | 40 | ≤18 | 55 | 55 | 40 |
 | [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | None | 60 | 60 | 18 | 57 | 57 | 60 |
-| [api > WorkerGlobalScope > fonts](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/fonts) | None | 69 | 69 | 79 | 105 | 105 | 69 |
+| [api > WorkerGlobalScope > fonts](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/fonts) | 💻 | 69 | 69 | 79 | 105 | 105 | 69 |
 | api > WorkerGlobalScope > importScripts > mime_checks | None | 71 | 71 | 79 | 67 | 67 | 71 |
 | [api > WorkerNavigator > hardwareConcurrency](https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency) | None | 37 | 37 | 15 | 48 | 48 | 37 |
 | [api > WritableStream > transferable](https://developer.mozilla.org/docs/Glossary/Transferable_objects) | None | 87 | 87 | 87 | 103 | 103 | 87 |
 | [api > WritableStreamDefaultController > signal](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/signal) | None | 98 | 98 | 98 | 100 | 100 | 98 |
-| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | None | 78 | 78 | 79 | 100 | 100 | 78 |
+| [api > WritableStreamDefaultWriter > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter) | 💻 | 78 | 78 | 79 | 100 | 100 | 78 |
 | api > createImageBitmap > options_colorSpaceConversion_parameter | None | 58 | 58 | 79 | 98 | 98 | 58 |
 | api > createImageBitmap > options_imageOrientation_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
 | api > createImageBitmap > options_premultiplyAlpha_parameter | None | 52 | 52 | 79 | 93 | 93 | 52 |
@@ -249,18 +249,18 @@ Ref. [Safari is the new IE | Read the Tea Leaves](https://nolanlawson.com/2015/0
 | [css > properties > counter-set](https://developer.mozilla.org/docs/Web/CSS/counter-set) | None | 85 | 85 | 85 | 68 | 68 | 85 |
 | css > properties > display > contents > contents_unusual | None | 65 | 65 | 79 | 59 | 59 | 65 |
 | css > properties > display > list-item > legend-support | None | 71 | 71 | 79 | 64 | 64 | 71 |
-| css > properties > flex-basis > content | None | 94 | 94 | 94 | 61 | 61 | 94 |
+| css > properties > flex-basis > content | 💻 | 94 | 94 | 94 | 61 | 61 | 94 |
 | css > properties > flex-grow > less_than_zero_animate | None | 49 | 49 | 79 | 32 | 32 | 49 |
 | css > properties > gap > multicol_context | None | 66 | 66 | 16 | 61 | 61 | 66 |
 | css > properties > justify-content > flex_context > start_end | None | 93 | 93 | 93 | 45 | 45 | 93 |
 | css > properties > list-style-type > ethiopic-halehame | None | 45 | 45 | 79 | 1 | 4 | 45 |
-| css > properties > offset-path > path-support | None | 64 | 64 | 79 | 72 | 79 | 64 |
-| css > properties > overflow > multiple_keywords | None | 68 | 68 | 79 | 61 | 61 | 68 |
+| css > properties > offset-path > path-support | 💻 | 64 | 64 | 79 | 72 | 79 | 64 |
+| css > properties > overflow > multiple_keywords | 💻 | 68 | 68 | 79 | 61 | 61 | 68 |
 | [css > properties > overflow-clip-margin](https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin) | None | 90 | 90 | 90 | 102 | 102 | 90 |
-| css > properties > overflow-wrap > anywhere | None | 80 | 80 | 80 | 65 | 65 | 80 |
-| css > properties > rotate > x_y_z_angle | None | 104 | 104 | 104 | 72 | 79 | 104 |
+| css > properties > overflow-wrap > anywhere | 💻 | 80 | 80 | 80 | 65 | 65 | 80 |
+| css > properties > rotate > x_y_z_angle | 💻 | 104 | 104 | 104 | 72 | 79 | 104 |
 | [css > properties > scrollbar-gutter](https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter) | None | 94 | 94 | 94 | 97 | 97 | 94 |
-| [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | None | 42 | 42 | 79 | 53 | 53 | 56 |
+| [css > properties > tab-size > length](https://developer.mozilla.org/docs/Web/CSS/length) | 💻 | 42 | 42 | 79 | 53 | 53 | 56 |
 | css > properties > text-transform > greek_accented_characters | None | 34 | 34 | 79 | 15 | 15 | 4.4 |
 | css > selectors > after > animation_and_transition_support | None | 26 | 26 | 12 | 4 | 4 | 4.4 |
 | css > selectors > any-link > not_match_link | None | 65 | 65 | 79 | 87 | 87 | 65 |
